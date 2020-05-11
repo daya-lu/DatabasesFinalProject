@@ -31,24 +31,19 @@
           <div class="card-header" id="headingOne">
             <h5 class="mb-0">
               <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                aria-controls="collapseOne">
+                aria-controls="collapseOne" onclick="addGames()">
                 Does hosting the Olympics increase the number of winners from that country?
               </button>
             </h5>
           </div>
           <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
               <h4>Select Olympic game</h4>
-                <select class="browser-default custom-select col-md-2" id="season" onchange="changeYears()">
-                  <option value="base">Select season</option>
-                  <option value="summer">Summer</option>
-                  <option value="winter">Winter</option>
-                </select>
-                <select class="browser-default custom-select col-md-1" id="year">
-                  <option selected>Select year</option>
-                </select>
-                <br>
-                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              <select class="browser-default custom-select col-md-3 game" id="game" onchange="checkGames()" required></select>
+              <br>
+              <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -56,7 +51,7 @@
           <div class="card-header" id="headingTwo">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-                aria-expanded="false" aria-controls="collapseTwo">
+                aria-expanded="false" aria-controls="collapseTwo" onclick="addSports()">
                 Which countries have the greatest average longevity among its Olympians (people who win in consecutive
                 years)?
               </button>
@@ -64,12 +59,26 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <select class="browser-default custom-select col-md-2" id="season">
+                  <option>Select season</option>
+                  <option value="S">Summer</option>
+                  <option value="W">Winter</option>
+                </select>
+                <select class="browser-default custom-select col-md-3 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
+                  <option value="base">Select sport</option>
+                </select>
+                <select class="browser-default custom-select col-md-4 event">
+                  <option>Select event</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="gender">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -77,19 +86,30 @@
           <div class="card-header" id="headingThree">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                aria-expanded="false" aria-controls="collapseThree">
+                aria-expanded="false" aria-controls="collapseThree" onclick="addCountries()">
                 Which sports have the greatest average longevity among Olympians?
               </button>
             </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <select class="browser-default custom-select col-md-2" id="season">
+                  <option>Select season</option>
+                  <option value="S">Summer</option>
+                  <option value="W">Winter</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="gender">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+                <select class="browser-default custom-select col-md-2 country">
+                  <option>Select country</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -97,20 +117,23 @@
           <div class="card-header" id="headingFour">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                aria-expanded="false" aria-controls="collapseFour">
+                aria-expanded="false" aria-controls="collapseFour" onclick="addSports(); addCountries();">
                 Do women or men have longer Olympic careers?
               </button>
             </h5>
           </div>
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
             <div class="card-body">
-              <h4>Select gender</h4>
-              <select class="browser-default custom-select col-md-2">
-                <option value="M">Male</option>
-                <option value="F">Female</option>
-              </select>
-              <br>
-              <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <select class="browser-default custom-select col-md-2 sport">
+                  <option value="base">Select sport</option>
+                </select>
+                <select class="browser-default custom-select col-md-2 country">
+                  <option>Select country</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -125,8 +148,11 @@
           </div>
           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
             <div class="card-body">
-              <h4>Select sport</h4>
-              <select class="browser-default custom-select col-md-2" id="sport">
+              <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
+                <option value="base">Select sport</option>
+              </select>
+              <select class="browser-default custom-select col-md-4 event">
+                <option>Select event</option>
               </select>
               <br>
               <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -137,24 +163,19 @@
           <div class="card-header" id="headingSix">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
-                aria-expanded="false" aria-controls="collapseSix">
+                aria-expanded="false" aria-controls="collapseSix" onclick="addGames()">
                 How does hosting the Olympics affect a country’s economy after the games have ended?
               </button>
             </h5>
           </div>
           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
             <div class="card-body">
-              <h4>Select Olympic game</h4>
-              <select class="browser-default custom-select col-md-2" id="season" onchange="changeYears()">
-                <option value="base">Select season</option>
-                <option value="summer">Summer</option>
-                <option value="winter">Winter</option>
-              </select>
-              <select class="browser-default custom-select col-md-1" id="year">
-                <option selected>Select year</option>
-              </select>
-              <br>
-              <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <h4>Select Olympic game</h4>
+                <select class="browser-default custom-select col-md-3 game" required></select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+                </form>
             </div>
           </div>
         </div>
@@ -169,12 +190,44 @@
           </div>
           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <h4>Select time range</h4>
+                <!-- TODO: add input validation for years selected to make sure year1 < year 2 -->
+                <select class="browser-default custom-select col-md-2" id="year1">
+                  <option>Select year 1</option>
+                  <option value="1890">1890</option>
+                  <option value="1900">1900</option>
+                  <option value="1910">1910</option>
+                  <option value="1920">1920</option>
+                  <option value="1930">1930</option>
+                  <option value="1940">1940</option>
+                  <option value="1950">1950</option>
+                  <option value="1960">1960</option>
+                  <option value="1970">1970</option>
+                  <option value="1980">1980</option>
+                  <option value="1990">1990</option>
+                  <option value="2000">2000</option>
+                  <option value="2010">2010</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="year2">
+                  <option>Select year 2</option>
+                  <option value="1890">1890</option>
+                  <option value="1900">1900</option>
+                  <option value="1910">1910</option>
+                  <option value="1920">1920</option>
+                  <option value="1930">1930</option>
+                  <option value="1940">1940</option>
+                  <option value="1950">1950</option>
+                  <option value="1960">1960</option>
+                  <option value="1970">1970</option>
+                  <option value="1980">1980</option>
+                  <option value="1990">1990</option>
+                  <option value="2000">2000</option>
+                  <option value="2010">2010</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -189,13 +242,44 @@
           </div>
           <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <h4>Select time range</h4>
+                <!-- TODO: add input validation for years selected to make sure year1 < year 2 -->
+                <select class="browser-default custom-select col-md-2" id="year1">
+                  <option>Select year 1</option>
+                  <option value="1890">1890</option>
+                  <option value="1900">1900</option>
+                  <option value="1910">1910</option>
+                  <option value="1920">1920</option>
+                  <option value="1930">1930</option>
+                  <option value="1940">1940</option>
+                  <option value="1950">1950</option>
+                  <option value="1960">1960</option>
+                  <option value="1970">1970</option>
+                  <option value="1980">1980</option>
+                  <option value="1990">1990</option>
+                  <option value="2000">2000</option>
+                  <option value="2010">2010</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="year2">
+                  <option>Select year 2</option>
+                  <option value="1890">1890</option>
+                  <option value="1900">1900</option>
+                  <option value="1910">1910</option>
+                  <option value="1920">1920</option>
+                  <option value="1930">1930</option>
+                  <option value="1940">1940</option>
+                  <option value="1950">1950</option>
+                  <option value="1960">1960</option>
+                  <option value="1970">1970</option>
+                  <option value="1980">1980</option>
+                  <option value="1990">1990</option>
+                  <option value="2000">2000</option>
+                  <option value="2010">2010</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
           </div>
         </div>
         <div class="card">
@@ -209,7 +293,6 @@
           </div>
           <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
             <div class="card-body">
-              <h4>Enter athlete data</h4>
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
                 <div class="data col-2">
                   <label for="height">Height (cm)</label>
@@ -225,6 +308,11 @@
                     Please enter an appropriate weight in kilograms.
                   </div>
                 </div>
+                <select class="browser-default custom-select col-md-2" id="season">
+                  <option>Select season</option>
+                  <option value="S">Summer</option>
+                  <option value="W">Winter</option>
+                </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
               </form>
@@ -243,12 +331,15 @@
           </div>
           <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <h4>Select which Olympic Games</h4>
+                <select class="browser-default custom-select col-md-3" required>
+                  <option value="1980">1980 Moscow Olympics</option>
+                  <option value="1984">1984 Los Angeles Olympics</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -264,12 +355,15 @@
           </div>
           <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-              aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <h4>Select world war</h4>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="WWI">World War I</option>
+                  <option value="WWII">World War II</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -284,14 +378,139 @@
           </div>
           <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
             <div class="card-body">
-              <h4>Select game season</h4>
-              <select class="browser-default custom-select col-md-2">
-                <option value="base">Select season</option>
-                <option value="summer">Summer</option>
-                <option value="winter">Winter</option>
-              </select>
+              <h4>Select time range</h4>
+                <!-- TODO: add input validation for years selected to make sure year1 < year 2 -->
+                <select class="browser-default custom-select col-md-2" id="year1">
+                  <option>Select year 1</option>
+                  <option value="1890">1890</option>
+                  <option value="1900">1900</option>
+                  <option value="1910">1910</option>
+                  <option value="1920">1920</option>
+                  <option value="1930">1930</option>
+                  <option value="1940">1940</option>
+                  <option value="1950">1950</option>
+                  <option value="1960">1960</option>
+                  <option value="1970">1970</option>
+                  <option value="1980">1980</option>
+                  <option value="1990">1990</option>
+                  <option value="2000">2000</option>
+                  <option value="2010">2010</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="year2">
+                  <option>Select year 2</option>
+                  <option value="1890">1890</option>
+                  <option value="1900">1900</option>
+                  <option value="1910">1910</option>
+                  <option value="1920">1920</option>
+                  <option value="1930">1930</option>
+                  <option value="1940">1940</option>
+                  <option value="1950">1950</option>
+                  <option value="1960">1960</option>
+                  <option value="1970">1970</option>
+                  <option value="1980">1980</option>
+                  <option value="1990">1990</option>
+                  <option value="2000">2000</option>
+                  <option value="2010">2010</option>
+                </select>
               <br>
               <button class="btn btn-primary mt-3" type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThirteen">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen"
+                aria-expanded="false" aria-controls="collapseThirteen" onclick="addSports(); addCountries();">
+                Who are the most decorated Olympians per country?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
+            <div class="card-body">
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <select class="browser-default custom-select col-md-2" id="gender">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
+                  <option value="base">Select sport</option>
+                </select>
+                <select class="browser-default custom-select col-md-4 event">
+                  <option>Select event</option>
+                </select>
+                <select class="browser-default custom-select col-md-3 country" required>
+                  <option>Select country</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFourteen">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen"
+                aria-expanded="false" aria-controls="collapseFourteen" onclick="addSports()">
+                Which countries have the most “one-hit wonders”?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
+            <div class="card-body">
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <select class="browser-default custom-select col-md-2" id="season">
+                  <option>Select season</option>
+                  <option value="S">Summer</option>
+                  <option value="W">Winter</option>
+                </select>
+                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
+                  <option value="base">Select sport</option>
+                </select>
+                <select class="browser-default custom-select col-md-4 event">
+                  <option>Select event</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="gender">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFifteen">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFifteen"
+                aria-expanded="false" aria-controls="collapseFifteen" onclick="addCountries()">
+                Which sports have the most “one-hit wonders”?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion">
+            <div class="card-body">
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <select class="browser-default custom-select col-md-2" id="season">
+                  <option>Select season</option>
+                  <option value="S">Summer</option>
+                  <option value="W">Winter</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="gender">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+                <select class="browser-default custom-select col-md-3 country" required>
+                  <option>Select country</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
