@@ -66,7 +66,7 @@
                   <option value="W">Winter</option>
                 </select>
                 <select class="browser-default custom-select col-md-3 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
-                  <option value="base">Select sport</option>
+                  <option>Select sport</option>
                 </select>
                 <select class="browser-default custom-select col-md-4 event">
                   <option>Select event</option>
@@ -126,7 +126,7 @@
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
                 <select class="browser-default custom-select col-md-2 sport">
-                  <option value="base">Select sport</option>
+                  <option>Select sport</option>
                 </select>
                 <select class="browser-default custom-select col-md-2 country">
                   <option>Select country</option>
@@ -148,14 +148,16 @@
           </div>
           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
             <div class="card-body">
-              <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
-                <option value="base">Select sport</option>
-              </select>
-              <select class="browser-default custom-select col-md-4 event">
-                <option>Select event</option>
-              </select>
-              <br>
-              <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
+                  <option value="">Select sport</option>
+                </select>
+                <select class="browser-default custom-select col-md-4 event">
+                  <option>Select event</option>
+                </select>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
@@ -163,19 +165,33 @@
           <div class="card-header" id="headingSix">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix"
-                aria-expanded="false" aria-controls="collapseSix" onclick="addGames()">
-                How does hosting the Olympics affect a country’s economy after the games have ended?
+                aria-expanded="false" aria-controls="collapseSix" onclick="addSports()">
+                Which countries have the oldest Olympians?
               </button>
             </h5>
           </div>
           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <h4>Select Olympic game</h4>
-                <select class="browser-default custom-select col-md-3 game" required></select>
+                <select class="browser-default custom-select col-md-2">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
+                </select>
+                <select class="browser-default custom-select col-md-2" id="season">
+                  <option>Select season</option>
+                  <option value="S">Summer</option>
+                  <option value="W">Winter</option>
+                </select>
+                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
+                  <option>Select sport</option>
+                </select>
+                <select class="browser-default custom-select col-md-4 event">
+                  <option>Select event</option>
+                </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
-                </form>
+              </form>
             </div>
           </div>
         </div>
@@ -183,47 +199,21 @@
           <div class="card-header" id="headingSeven">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven"
-                aria-expanded="false" aria-controls="collapseSeven">
-                Do countries with higher GDPs produce more medalists?
+                aria-expanded="false" aria-controls="collapseSeven" onclick="addCountries()">
+                Which sports have the heaviest Olympians?
               </button>
             </h5>
           </div>
           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <h4>Select time range</h4>
-                <!-- TODO: add input validation for years selected to make sure year1 < year 2 -->
-                <select class="browser-default custom-select col-md-2" id="year1">
-                  <option>Select year 1</option>
-                  <option value="1890">1890</option>
-                  <option value="1900">1900</option>
-                  <option value="1910">1910</option>
-                  <option value="1920">1920</option>
-                  <option value="1930">1930</option>
-                  <option value="1940">1940</option>
-                  <option value="1950">1950</option>
-                  <option value="1960">1960</option>
-                  <option value="1970">1970</option>
-                  <option value="1980">1980</option>
-                  <option value="1990">1990</option>
-                  <option value="2000">2000</option>
-                  <option value="2010">2010</option>
+                <select class="browser-default custom-select col-md-2 country">
+                  <option>Select country</option>
                 </select>
-                <select class="browser-default custom-select col-md-2" id="year2">
-                  <option>Select year 2</option>
-                  <option value="1890">1890</option>
-                  <option value="1900">1900</option>
-                  <option value="1910">1910</option>
-                  <option value="1920">1920</option>
-                  <option value="1930">1930</option>
-                  <option value="1940">1940</option>
-                  <option value="1950">1950</option>
-                  <option value="1960">1960</option>
-                  <option value="1970">1970</option>
-                  <option value="1980">1980</option>
-                  <option value="1990">1990</option>
-                  <option value="2000">2000</option>
-                  <option value="2010">2010</option>
+                <select class="browser-default custom-select col-md-2">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -235,47 +225,30 @@
           <div class="card-header" id="headingEight">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight"
-                aria-expanded="false" aria-controls="collapseEight">
-                Does a country’s GDP affect its chance of medaling more at the winter or summer Olympics?
+                aria-expanded="false" aria-controls="collapseEight" onclick="addSports()">
+                How many medals does a country have for a sport?
               </button>
             </h5>
           </div>
           <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <h4>Select time range</h4>
-                <!-- TODO: add input validation for years selected to make sure year1 < year 2 -->
-                <select class="browser-default custom-select col-md-2" id="year1">
-                  <option>Select year 1</option>
-                  <option value="1890">1890</option>
-                  <option value="1900">1900</option>
-                  <option value="1910">1910</option>
-                  <option value="1920">1920</option>
-                  <option value="1930">1930</option>
-                  <option value="1940">1940</option>
-                  <option value="1950">1950</option>
-                  <option value="1960">1960</option>
-                  <option value="1970">1970</option>
-                  <option value="1980">1980</option>
-                  <option value="1990">1990</option>
-                  <option value="2000">2000</option>
-                  <option value="2010">2010</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select medal</option>
+                  <option value="Gold">Gold</option>
+                  <option value="Silver">Silver</option>
+                  <option value="Bronze">Bronze</option>
                 </select>
-                <select class="browser-default custom-select col-md-2" id="year2">
-                  <option>Select year 2</option>
-                  <option value="1890">1890</option>
-                  <option value="1900">1900</option>
-                  <option value="1910">1910</option>
-                  <option value="1920">1920</option>
-                  <option value="1930">1930</option>
-                  <option value="1940">1940</option>
-                  <option value="1950">1950</option>
-                  <option value="1960">1960</option>
-                  <option value="1970">1970</option>
-                  <option value="1980">1980</option>
-                  <option value="1990">1990</option>
-                  <option value="2000">2000</option>
-                  <option value="2010">2010</option>
+                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
+                  <option value="">Select sport</option>
+                </select>
+                <select class="browser-default custom-select col-md-4 event">
+                  <option>Select event</option>
+                </select>
+                <select class="browser-default custom-select col-md-2">
+                  <option>Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -435,13 +408,13 @@
                   <option value="F">Female</option>
                 </select>
                 <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
-                  <option value="base">Select sport</option>
+                  <option>Select sport</option>
                 </select>
                 <select class="browser-default custom-select col-md-4 event">
                   <option>Select event</option>
                 </select>
                 <select class="browser-default custom-select col-md-3 country" required>
-                  <option>Select country</option>
+                  <option value="">Select country</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -467,7 +440,7 @@
                   <option value="W">Winter</option>
                 </select>
                 <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
-                  <option value="base">Select sport</option>
+                  <option value="">Select sport</option>
                 </select>
                 <select class="browser-default custom-select col-md-4 event">
                   <option>Select event</option>
@@ -506,7 +479,7 @@
                   <option value="F">Female</option>
                 </select>
                 <select class="browser-default custom-select col-md-3 country" required>
-                  <option>Select country</option>
+                  <option value="">Select country</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
