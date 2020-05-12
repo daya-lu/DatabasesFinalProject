@@ -8,9 +8,8 @@ function addGames() {
         "1992 - Spain - S", "1994 - Norway - W", "1996 - USA - S", "1998 - Japan - W", "2000 - Australia - S", "2002 - USA - W", "2004 - Greece - S",
         "2006 - Italy - W", "2008 - China - S", "2010 - Canada - W", "2012 - UK - S", "2014 - Russia - S", "2016 - Brazil - W"];
     for (var g in games) {
-        var year = games[g].substring(0, 4);
         var option = document.createElement("option");
-        option.value = year;
+        option.value = games[g];
         option.text = games[g];
         gameMenu.appendChild(option);
     }
