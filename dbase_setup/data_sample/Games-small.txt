@@ -1,0 +1,7 @@
+Year,season,City,NOC,numSports
+1952,S,Helsinki,FIN,171
+2000,S,Sydney,AUS,300
+2004,S,Athens,GRE,301
+2008,S,Beijing,CHN,302
+2012,S,London,GBR,302
+2016,S,Rio de Janeiro,BRA,306

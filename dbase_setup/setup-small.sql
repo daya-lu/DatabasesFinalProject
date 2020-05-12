@@ -64,37 +64,37 @@ CREATE TABLE Medalists (
   FOREIGN KEY(eventID) REFERENCES Events(eventID)     
 );
 
-LOAD DATA LOCAL INFILE 'clean_data/Countries.txt'
+LOAD DATA LOCAL INFILE 'data_sample/Countries-small.txt'
 INTO TABLE Countries
 CHARACTER SET UTF8
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'clean_data/Games.txt'
+LOAD DATA LOCAL INFILE 'data_sample/Games-small.txt'
 INTO TABLE Games
 CHARACTER SET UTF8
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'clean_data/Events.txt'
+LOAD DATA LOCAL INFILE 'data_sample/Events-small.txt'
 INTO TABLE Events
 CHARACTER SET UTF8
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'clean_data/Athletes.txt'
+LOAD DATA LOCAL INFILE 'data_sample/Athletes-small.txt'
 INTO TABLE Athletes
 CHARACTER SET UTF8
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'clean_data/AthleteStats.txt'
+LOAD DATA LOCAL INFILE 'data_sample/AthleteStats-small.txt'
 INTO TABLE AthleteStats
 CHARACTER SET UTF8
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE 'clean_data/Medalists.txt'
+LOAD DATA LOCAL INFILE 'data_sample/Medalists-small.txt'
 INTO TABLE Medalists
 CHARACTER SET UTF8
 FIELDS TERMINATED BY ','

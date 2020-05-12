@@ -1,0 +1,16 @@
+NOC,countryName,year
+AUS,Australia,2000
+BRA,Brazil,2016
+CHN,China,2000
+CHN,China,2008
+CHN,China,2012
+FRA,France,2004
+GBR,UK,2012
+GER,Germany,2016
+GRE,Greece,2004
+RUS,Russia,2000
+RUS,Russia,2012
+RUS,Russia,2016
+USA,USA,2004
+USA,USA,2008
+USA,USA,2016

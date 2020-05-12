@@ -1,0 +1,16 @@
+athleteID,athleteName,NOC,Year,eventID
+28449,Svetlana Vasilyevna Khorkina,RUS,2000,383
+28632,Ling Jie,CHN,2000,383
+29593,Yang Yun,CHN,2000,383
+30827,Terin Marie Humphrey,USA,2004,383
+31055,Courtney Anne Kupets (-Carter),USA,2004,383
+31089,milie Le Pennec,FRA,2004,383
+33312,He Kexin,CHN,2008,383
+33682,Anastasiya Valeryevna "Nastia" Liukin,USA,2008,383
+34632,Yang Yilin,CHN,2008,383
+35898,He Kexin,CHN,2012,383
+36424,Aliya Farkhatovna Mustafina,RUS,2012,383
+36970,Elizabeth Kimberly "Beth" Tweddle,GBR,2012,383
+38640,Madison Taylor Kocian,USA,2016,383
+38978,Aliya Farkhatovna Mustafina,RUS,2016,383
+39306,Sophie Celina Scheder,GER,2016,383

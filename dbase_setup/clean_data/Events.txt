@@ -1,4 +1,4 @@
-eventID,sport,event,yearIntroduced,latestYear,Weason
+eventID,sport,event,yearIntroduced,latestYear,season
 1,Aeronautics,Aeronautics Mixed Aeronautics,1936,1936,S
 2,Alpine Skiing,Alpine Skiing Mens Combined,1936,2014,W
 3,Alpine Skiing,Alpine Skiing Mens Downhill,1948,2014,W
