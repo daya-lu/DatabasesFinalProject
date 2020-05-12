@@ -23,7 +23,9 @@
   <header>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="">Databases Project</a>
+      <a class="navbar-brand" href="">Databases Final Project
+        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1200px-Olympic_rings_without_rims.svg.png width="80">
+      </a>
     </nav>
   </header>
 
@@ -210,7 +212,7 @@
           <div class="card-header" id="headingEight">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight"
-                aria-expanded="false" aria-controls="collapseEight" onclick="addSports()">
+                aria-expanded="false" aria-controls="collapseEight" onclick="addSports(); addCountries();">
                 How many medals does a country have for a sport?
               </button>
             </h5>
@@ -224,10 +226,8 @@
                 <select name="event" class="browser-default custom-select col-md-4 event" required>
                   <option value="">Select event</option>
                 </select>
-                <select name="gender" class="browser-default custom-select col-md-2" required>
-                  <option value="">Select gender</option>
-                  <option value="M">Male</option>
-                  <option value="F">Female</option>
+                <select name="country" class="browser-default custom-select col-md-2 country" required>
+                  <option value="">Select country</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>

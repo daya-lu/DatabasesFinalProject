@@ -1,5 +1,5 @@
  <head>
-	<title>Number of Olympic Medalists</title>
+	<title>Average Age of Athletes</title>
  </head>
  <body>
 
@@ -14,18 +14,21 @@
 
 function outputResultsTableHeader() {
     echo "<tr>";
-    echo "<th> Year </th>";
-    echo "<th> Number of Medals </th>";
+    echo "<th> Country </th>";
+    echo "<th> Athlete Name </th>";
+    echo "<th> Age </th>";
+    echo "<th> Year Competed </th>";
+    echo "<th> Sport </th>";
+    echo "<th> Event </th>";
     echo "</tr>";
 }
 
 include '../open.php';
 
-ini_set('error_reporting', E_ALL); // report errors of all types
-ini_set('display_errors', true);   // report errors to screen (don't hide from user)
 
-
-$year = $_POST['year'];
+$sex = $_POST['gender'];
+$season = $_POST['season'];
+$sport = $_POST['sport'];
 
 // PARSE THE STRING
 
@@ -35,7 +38,7 @@ $year = $_POST['year'];
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q7($year);")) {
+if ($mysqli->multi_query("CALL Q13('$sex', '$season', '$sport');")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {
