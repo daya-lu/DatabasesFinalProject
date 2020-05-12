@@ -1,11 +1,6 @@
  <head>
-	<title>Average Longevity of Athletes per Sport</title>
+    <title>Most Decorated Olympians</title>
  </head>
-
-<p>
-    We calculated longevity by averaging the number of wins per athlete for each event. 
-</p>
-
  <body>
 
 <link rel="stylesheet" href="styles.css">
@@ -19,9 +14,11 @@
 
 function outputResultsTableHeader() {
     echo "<tr>";
-    echo "<th> Sport </th>";
-    echo "<th> Event </th>";
-    echo "<th> Average Longevity </th>";
+    echo "<th> Athlete Name </th>";
+    echo "<th> Total Medals </th>";
+    echo "<th> Gold </th>";
+    echo "<th> Silver </th>";
+    echo "<th> Bronze </th>";
     echo "</tr>";
 }
 
@@ -29,7 +26,8 @@ include '../open.php';
 
 
 $sex = $_POST['gender'];
-$season = $_POST['season'];
+$sport = $_POST['sport'];
+$country = $_POST['country'];
 
 // PARSE THE STRING
 
@@ -39,7 +37,7 @@ $season = $_POST['season'];
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
+if ($mysqli->multi_query("CALL Q10('$sex', '$sport', '$country');")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {
@@ -65,7 +63,7 @@ if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
 
             // Output appropriate table header row
             outputResultsTableHeader();
-	    
+        
             // Output each row of resulting relation
             do {
                 echo "<tr>";

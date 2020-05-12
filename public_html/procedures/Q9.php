@@ -1,11 +1,9 @@
  <head>
-	<title>Average Longevity of Athletes per Sport</title>
+    <title>Events based on Height and Weight</title>
  </head>
-
-<p>
-    We calculated longevity by averaging the number of wins per athlete for each event. 
+  <p>
+    We found the optimized event by finding the closest weight and height combination of your input, weighted for accuracy. 
 </p>
-
  <body>
 
 <link rel="stylesheet" href="styles.css">
@@ -21,7 +19,8 @@ function outputResultsTableHeader() {
     echo "<tr>";
     echo "<th> Sport </th>";
     echo "<th> Event </th>";
-    echo "<th> Average Longevity </th>";
+    echo "<th> Average Height </th>";
+    echo "<th> Average Weight </th>";
     echo "</tr>";
 }
 
@@ -29,7 +28,8 @@ include '../open.php';
 
 
 $sex = $_POST['gender'];
-$season = $_POST['season'];
+$height = $_POST['height'];
+$weight = $_POST['weight'];
 
 // PARSE THE STRING
 
@@ -39,7 +39,7 @@ $season = $_POST['season'];
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
+if ($mysqli->multi_query("CALL Q6('$sex', $weight, $height);")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {
@@ -65,7 +65,7 @@ if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
 
             // Output appropriate table header row
             outputResultsTableHeader();
-	    
+        
             // Output each row of resulting relation
             do {
                 echo "<tr>";

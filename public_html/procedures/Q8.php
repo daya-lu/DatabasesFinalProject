@@ -34,7 +34,7 @@ $event = $_POST['event'];
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q15('$sport', '$event', $country');")) {
+if ($mysqli->multi_query("CALL Q15('$sport', '$event', '$country');")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {

@@ -1,11 +1,9 @@
  <head>
-	<title>Average Longevity of Athletes per Sport</title>
+    <title>One Time Olympians by Country</title>
  </head>
-
-<p>
-    We calculated longevity by averaging the number of wins per athlete for each event. 
-</p>
-
+ <p>
+    Many olympians only compete in a single Olympic Game, but we wanted to see which countries had the highest percentage of unique medalists, or "One-hit Wonders"
+ </p>
  <body>
 
 <link rel="stylesheet" href="styles.css">
@@ -19,9 +17,8 @@
 
 function outputResultsTableHeader() {
     echo "<tr>";
-    echo "<th> Sport </th>";
-    echo "<th> Event </th>";
-    echo "<th> Average Longevity </th>";
+    echo "<th> Country </th>";
+    echo "<th> Percent </th>";
     echo "</tr>";
 }
 
@@ -29,7 +26,6 @@ include '../open.php';
 
 
 $sex = $_POST['gender'];
-$season = $_POST['season'];
 
 // PARSE THE STRING
 
@@ -39,7 +35,7 @@ $season = $_POST['season'];
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
+if ($mysqli->multi_query("CALL Q11('$sex');")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {
@@ -65,7 +61,7 @@ if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
 
             // Output appropriate table header row
             outputResultsTableHeader();
-	    
+        
             // Output each row of resulting relation
             do {
                 echo "<tr>";

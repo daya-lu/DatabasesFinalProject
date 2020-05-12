@@ -1,6 +1,9 @@
  <head>
 	<title>Average Longevity of Athletes per Gender</title>
  </head>
+ <p>
+    We calculated longevity by averaging the number of wins per athlete for each gender. 
+</p>
  <body>
 
 <link rel="stylesheet" href="styles.css">

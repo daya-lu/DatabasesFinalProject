@@ -1,6 +1,11 @@
  <head>
 	<title>Number of Olympic Medalists</title>
  </head>
+
+ <p>
+    In 1980, the USA boycotted the Summer Olympics in Moscow. In turn, the Soviet Union as well as several other countries boycotted the 1984 Summer Olympics in Los Angeles. Since both were dominant countries in several sports, we wanted to see how the boycott of one country affected the number of medals won by the host country. We found the medal count for the Soviet Union in both 1976 and 1980, and the US in 1984 and 1988 to draw comparisons.
+</p>
+
  <body>
 
 <link rel="stylesheet" href="styles.css">

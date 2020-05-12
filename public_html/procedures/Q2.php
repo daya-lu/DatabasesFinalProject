@@ -1,6 +1,9 @@
  <head>
 	<title>Average Longevity of Athletes per Country</title>
  </head>
+<p>
+    We calculated longevity by averaging the number of wins per athlete for each event. 
+</p>
  <body>
 
 <link rel="stylesheet" href="styles.css">
@@ -21,8 +24,6 @@ function outputResultsTableHeader() {
 
 include '../open.php';
 
-
-$sex = $_POST['gender'];
 $sport = $_POST['sport'];
 
 // PARSE THE STRING
@@ -33,7 +34,7 @@ $sport = $_POST['sport'];
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q2('$sex', '$sport');")) {
+if ($mysqli->multi_query("CALL Q2('$sport');")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {

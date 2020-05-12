@@ -224,18 +224,19 @@ CREATE VIEW weights AS(
 delimiter //
 
 DROP PROCEDURE IF EXISTS Q1 //
-CREATE PROCEDURE Q1(IN base_year INT(4), cname VARCHAR(32))
+CREATE PROCEDURE Q1(IN base_year INT(4), cname VARCHAR(32), seas VARCHAR(1))
 BEGIN
 SELECT year, COUNT(athleteID) AS medal_count
 FROM Athletes
 WHERE year BETWEEN base_year - 4 AND base_year + 4
-AND NOC in (SELECT NOC FROM Countries WHERE countryName = 'China')
+AND NOC in (SELECT NOC FROM Countries WHERE countryName = cname)
+AND eventID IN (SELECT eventID FROM Events WHERE season = seas)
 GROUP BY year;
 END;
 //
 
 DROP PROCEDURE IF EXISTS Q2 //
-CREATE PROCEDURE Q2(IN s VARCHAR(1), spo VARCHAR(64))
+CREATE PROCEDURE Q2(spo VARCHAR(64))
 BEGIN
 SELECT Countries.countryName, C.avg_num_games
 FROM Countries
@@ -246,8 +247,7 @@ INNER JOIN (
     FROM (
       SELECT athleteName, year, COUNT(athleteID), NOC 
       FROM Athletes 
-      WHERE athleteID IN (SELECT athleteID FROM AthleteStats WHERE sex = s)
-      AND eventID IN (SELECT eventID FROM Events WHERE sport = spo)
+      WHERE eventID IN (SELECT eventID FROM Events WHERE sport = spo)
       GROUP BY athleteName, year, NOC
       ) A
       GROUP BY A.athleteName, A.NOC

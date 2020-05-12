@@ -1,11 +1,9 @@
  <head>
-	<title>Average Longevity of Athletes per Sport</title>
+    <title>Effect of World Wars</title>
  </head>
-
-<p>
-    We calculated longevity by averaging the number of wins per athlete for each event. 
+  <p>
+    Because of WWI the 1916 Olympics were cancelled. Similarly, WWII cancelled the 1940 and 1944 Olympics. We compared the countries that medaled in the Olympics prior to the war and those that medaled after to see what toll the war took on the medalist distribution. The table shows all countries that either only medaled prior to the war or after the war, but not in both years. Germany is notably a dominant competitor in the years prior to war, but did not medal in the immediate Olympics after. We also see some new countries able to break into the medals following the war.
 </p>
-
  <body>
 
 <link rel="stylesheet" href="styles.css">
@@ -19,17 +17,16 @@
 
 function outputResultsTableHeader() {
     echo "<tr>";
-    echo "<th> Sport </th>";
-    echo "<th> Event </th>";
-    echo "<th> Average Longevity </th>";
+    echo "<th> Year </th>";
+    echo "<th> Country </th>";
+    echo "<th> Number of Medals </th>";
     echo "</tr>";
 }
 
 include '../open.php';
 
 
-$sex = $_POST['gender'];
-$season = $_POST['season'];
+$war = $_POST['war'];
 
 // PARSE THE STRING
 
@@ -39,7 +36,7 @@ $season = $_POST['season'];
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
+if ($mysqli->multi_query("CALL Q8('$war');")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {
@@ -65,7 +62,7 @@ if ($mysqli->multi_query("CALL Q3('$sex', '$season');")) {
 
             // Output appropriate table header row
             outputResultsTableHeader();
-	    
+        
             // Output each row of resulting relation
             do {
                 echo "<tr>";

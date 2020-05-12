@@ -1,7 +1,16 @@
  <head>
 	<title>Number of Olympic Medalists</title>
  </head>
+ <p>
+    We wanted to investigate if "Home Team Advantage" is applicable on as large a scale as the olympics by comparing the number of medalists from a country hosting the Olympics to their performance in the previous and next Olympics.
+ </p>
  <body>
+
+<link rel="stylesheet" href="styles.css">
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
  <?php
 
 
@@ -12,19 +21,20 @@ function outputResultsTableHeader() {
     echo "</tr>";
 }
 
-include 'open.php';
+include '../open.php';
 
-$base_year = $_POST['game'];
+$text = $_POST['game'];
 
-// PARSE THE STRING
-
+$year = substr($text, 0, 4);
+$season = substr($text, -1);
+$country = substr($text, 7, -4);
 
 // Call the stored procedure named ShowRawScores
 // "multi_query" executes given (multiple-statement) MySQL query
 // It returns true if first statement executed successfully; false otherwise.
 // Results of first statement are retrieved via $mysqli->store_result()
 // from which we can call ->fetch_row() to see successive rows
-if ($mysqli->multi_query("CALL Q1(".$base_year.", '".$cname."');")) {
+if ($mysqli->multi_query("CALL Q1($year, '$country', '$season');")) {
 
     // Check if a result was returned after the call
     if ($result = $mysqli->store_result()) {
@@ -50,7 +60,7 @@ if ($mysqli->multi_query("CALL Q1(".$base_year.", '".$cname."');")) {
 
             // Output appropriate table header row
             outputResultsTableHeader();
-	    
+        
             // Output each row of resulting relation
             do {
                 echo "<tr>";

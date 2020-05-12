@@ -1,6 +1,9 @@
  <head>
 	<title>Average Age of Medalists</title>
  </head>
+ <p>
+    We calculated peak age by averaging the age of all medalists for an event. 
+</p>
  <body>
 
 <link rel="stylesheet" href="styles.css">
