@@ -1,0 +1,742 @@
+eventID,sport,event,yearIntroduced,latestYear,Weason
+1,Aeronautics,Aeronautics Mixed Aeronautics,1936,1936,S
+2,Alpine Skiing,Alpine Skiing Mens Combined,1936,2014,W
+3,Alpine Skiing,Alpine Skiing Mens Downhill,1948,2014,W
+4,Alpine Skiing,Alpine Skiing Mens Giant Slalom,1952,2014,W
+5,Alpine Skiing,Alpine Skiing Mens Slalom,1948,2014,W
+6,Alpine Skiing,Alpine Skiing Mens Super G,1988,2014,W
+7,Alpine Skiing,Alpine Skiing Womens Combined,1936,2014,W
+8,Alpine Skiing,Alpine Skiing Womens Downhill,1948,2014,W
+9,Alpine Skiing,Alpine Skiing Womens Giant Slalom,1952,2014,W
+10,Alpine Skiing,Alpine Skiing Womens Slalom,1948,2014,W
+11,Alpine Skiing,Alpine Skiing Womens Super G,1988,2014,W
+12,Alpinism,Alpinism Mixed Alpinism,1924,1936,S
+13,Alpinism,Alpinism Mixed Alpinism,1924,1936,W
+14,Archery,Archery Mens Au Chapelet - 33 metres,1900,1900,S
+15,Archery,Archery Mens Au Chapelet - 50 metres,1900,1900,S
+16,Archery,Archery Mens Au Cordon Dore - 33 metres,1900,1900,S
+17,Archery,Archery Mens Au Cordon Dore - 50 metres,1900,1900,S
+18,Archery,Archery Mens Championnat Du Monde,1900,1900,S
+19,Archery,Archery Mens Continental Style,1908,1908,S
+20,Archery,Archery Mens Double American Round,1904,1904,S
+21,Archery,Archery Mens Double York Round,1904,1908,S
+22,Archery,Archery Mens Individual,1972,2016,S
+23,Archery,Archery Mens Pole Archery - Large Birds - Individual,1920,1920,S
+24,Archery,Archery Mens Pole Archery - Large Birds - Team,1920,1920,S
+25,Archery,Archery Mens Pole Archery - Small Birds - Individual,1920,1920,S
+26,Archery,Archery Mens Pole Archery - Small Birds - Team,1920,1920,S
+27,Archery,Archery Mens Sur La Perche a La Herse,1900,1900,S
+28,Archery,Archery Mens Sur La Perche a La Pyramide,1900,1900,S
+29,Archery,Archery Mens Target Archery - 28 metres - Individual,1920,1920,S
+30,Archery,Archery Mens Target Archery - 28 metres - Team,1920,1920,S
+31,Archery,Archery Mens Target Archery - 33 metres - Individual,1920,1920,S
+32,Archery,Archery Mens Target Archery - 33 metres - Team,1920,1920,S
+33,Archery,Archery Mens Target Archery - 50 metres - Individual,1920,1920,S
+34,Archery,Archery Mens Target Archery - 50 metres - Team,1920,1920,S
+35,Archery,Archery Mens Team,1988,2016,S
+36,Archery,Archery Mens Team Round,1904,1904,S
+37,Archery,Archery Womens Double Columbia Round,1904,1904,S
+38,Archery,Archery Womens Double National Round,1904,1908,S
+39,Archery,Archery Womens Individual,1972,2016,S
+40,Archery,Archery Womens Team,1988,2016,S
+41,Archery,Archery Womens Team Round,1904,1904,S
+42,Art Competitions,Art Competitions Mixed Architecture,1912,1924,S
+43,Art Competitions,Art Competitions Mixed Architecture - Architectural Designs,1928,1948,S
+44,Art Competitions,Art Competitions Mixed Architecture - Designs For Town Planning,1928,1948,S
+45,Art Competitions,Art Competitions Mixed Literature,1912,1932,S
+46,Art Competitions,Art Competitions Mixed Literature - Dramatic Works,1928,1928,S
+47,Art Competitions,Art Competitions Mixed Literature - Epic Works,1928,1948,S
+48,Art Competitions,Art Competitions Mixed Literature - Lyric Works,1928,1948,S
+49,Art Competitions,Art Competitions Mixed Music,1912,1932,S
+50,Art Competitions,Art Competitions Mixed Music - Compositions For Orchestra,1928,1948,S
+51,Art Competitions,Art Competitions Mixed Music - Compositions For Solo Or Chorus,1936,1936,S
+52,Art Competitions,Art Competitions Mixed Music - Instrumental And Chamber,1948,1948,S
+53,Art Competitions,Art Competitions Mixed Music - Vocals,1948,1948,S
+54,Art Competitions,Art Competitions Mixed Painting,1912,1924,S
+55,Art Competitions,Art Competitions Mixed Painting - Applied Arts,1936,1948,S
+56,Art Competitions,Art Competitions Mixed Painting - Drawings And Water Colors,1928,1936,S
+57,Art Competitions,Art Competitions Mixed Painting - Graphic Arts,1928,1948,S
+58,Art Competitions,Art Competitions Mixed Painting - Paintings,1928,1948,S
+59,Art Competitions,Art Competitions Mixed Sculpturing,1912,1924,S
+60,Art Competitions,Art Competitions Mixed Sculpturing - Medals,1936,1936,S
+61,Art Competitions,Art Competitions Mixed Sculpturing - Medals And Plaques,1948,1948,S
+62,Art Competitions,Art Competitions Mixed Sculpturing - Medals And Reliefs,1928,1932,S
+63,Art Competitions,Art Competitions Mixed Sculpturing - Reliefs,1936,1948,S
+64,Art Competitions,Art Competitions Mixed Sculpturing - Statues,1928,1948,S
+65,Athletics,Athletics Mens 1500 metres,1896,2016,S
+66,Athletics,Athletics Mens 1600 metres Medley Relay,1908,1908,S
+67,Athletics,Athletics Mens 10 kilometres Walk,1912,1952,S
+68,Athletics,Athletics Mens 10 mile Walk,1908,1908,S
+69,Athletics,Athletics Mens 10000 metres,1912,2016,S
+70,Athletics,Athletics Mens 100 metres,1896,2016,S
+71,Athletics,Athletics Mens 110 metres Hurdles,1896,2016,S
+72,Athletics,Athletics Mens 2500 metres Steeplechase,1900,1900,S
+73,Athletics,Athletics Mens 2590 metres Steeplechase,1904,1904,S
+74,Athletics,Athletics Mens 20 kilometres Walk,1956,2016,S
+75,Athletics,Athletics Mens 200 metres,1900,2016,S
+76,Athletics,Athletics Mens 200 metres Hurdles,1900,1904,S
+77,Athletics,Athletics Mens 3 mile - Team,1908,1908,S
+78,Athletics,Athletics Mens 3000 metres Steeplechase,1920,2016,S
+79,Athletics,Athletics Mens 3000 metres Walk,1920,1920,S
+80,Athletics,Athletics Mens 3000 metres - Team,1912,1924,S
+81,Athletics,Athletics Mens 3200 metres Steeplechase,1908,1908,S
+82,Athletics,Athletics Mens 3500 metres Walk,1908,1908,S
+83,Athletics,Athletics Mens 4 mile - Team,1904,1904,S
+84,Athletics,Athletics Mens 4 x 100 metres Relay,1912,2016,S
+85,Athletics,Athletics Mens 4 x 400 metres Relay,1912,2016,S
+86,Athletics,Athletics Mens 4000 metres Steeplechase,1900,1900,S
+87,Athletics,Athletics Mens 400 metres,1896,2016,S
+88,Athletics,Athletics Mens 400 metres Hurdles,1900,2016,S
+89,Athletics,Athletics Mens 5 mile,1908,1908,S
+90,Athletics,Athletics Mens 5000 metres,1912,2016,S
+91,Athletics,Athletics Mens 5000 metres - Team,1900,1900,S
+92,Athletics,Athletics Mens 50 kilometres Walk,1932,2016,S
+93,Athletics,Athletics Mens 56-pound Weight Throw,1904,1920,S
+94,Athletics,Athletics Mens 60 metres,1900,1904,S
+95,Athletics,Athletics Mens 800 metres,1896,2016,S
+96,Athletics,Athletics Mens All-Around Championship,1904,1904,S
+97,Athletics,Athletics Mens Cross-Country - Individual,1912,1924,S
+98,Athletics,Athletics Mens Cross-Country - Team,1912,1924,S
+99,Athletics,Athletics Mens Decathlon,1912,2016,S
+100,Athletics,Athletics Mens Discus Throw,1896,2016,S
+101,Athletics,Athletics Mens Discus Throw - Both Hands,1912,1912,S
+102,Athletics,Athletics Mens Discus Throw - Greek Style,1908,1908,S
+103,Athletics,Athletics Mens Hammer Throw,1900,2016,S
+104,Athletics,Athletics Mens High Jump,1896,2016,S
+105,Athletics,Athletics Mens Javelin Throw,1908,2016,S
+106,Athletics,Athletics Mens Javelin Throw - Both Hands,1912,1912,S
+107,Athletics,Athletics Mens Javelin Throw - Freestyle,1908,1908,S
+108,Athletics,Athletics Mens Long Jump,1896,2016,S
+109,Athletics,Athletics Mens Marathon,1896,2016,S
+110,Athletics,Athletics Mens Pentathlon,1912,1924,S
+111,Athletics,Athletics Mens Pole Vault,1896,2016,S
+112,Athletics,Athletics Mens Shot Put,1896,2016,S
+113,Athletics,Athletics Mens Shot Put - Both Hands,1912,1912,S
+114,Athletics,Athletics Mens Standing High Jump,1900,1912,S
+115,Athletics,Athletics Mens Standing Long Jump,1900,1912,S
+116,Athletics,Athletics Mens Standing Triple Jump,1900,1904,S
+117,Athletics,Athletics Mens Triple Jump,1896,2016,S
+118,Athletics,Athletics Womens 1500 metres,1972,2016,S
+119,Athletics,Athletics Womens 10 kilometres Walk,1992,1996,S
+120,Athletics,Athletics Womens 10000 metres,1988,2016,S
+121,Athletics,Athletics Womens 100 metres,1928,2016,S
+122,Athletics,Athletics Womens 100 metres Hurdles,1972,2016,S
+123,Athletics,Athletics Womens 20 kilometres Walk,2000,2016,S
+124,Athletics,Athletics Womens 200 metres,1948,2016,S
+125,Athletics,Athletics Womens 3000 metres,1984,1992,S
+126,Athletics,Athletics Womens 3000 metres Steeplechase,2008,2016,S
+127,Athletics,Athletics Womens 4 x 100 metres Relay,1928,2016,S
+128,Athletics,Athletics Womens 4 x 400 metres Relay,1972,2016,S
+129,Athletics,Athletics Womens 400 metres,1964,2016,S
+130,Athletics,Athletics Womens 400 metres Hurdles,1984,2016,S
+131,Athletics,Athletics Womens 5000 metres,1996,2016,S
+132,Athletics,Athletics Womens 80 metres Hurdles,1932,1968,S
+133,Athletics,Athletics Womens 800 metres,1928,2016,S
+134,Athletics,Athletics Womens Discus Throw,1928,2016,S
+135,Athletics,Athletics Womens Hammer Throw,2000,2016,S
+136,Athletics,Athletics Womens Heptathlon,1984,2016,S
+137,Athletics,Athletics Womens High Jump,1928,2016,S
+138,Athletics,Athletics Womens Javelin Throw,1932,2016,S
+139,Athletics,Athletics Womens Long Jump,1948,2016,S
+140,Athletics,Athletics Womens Marathon,1984,2016,S
+141,Athletics,Athletics Womens Pentathlon,1964,1980,S
+142,Athletics,Athletics Womens Pole Vault,2000,2016,S
+143,Athletics,Athletics Womens Shot Put,1948,2016,S
+144,Athletics,Athletics Womens Triple Jump,1996,2016,S
+145,Badminton,Badminton Mens Doubles,1992,2016,S
+146,Badminton,Badminton Mens Singles,1992,2016,S
+147,Badminton,Badminton Mixed Doubles,1996,2016,S
+148,Badminton,Badminton Womens Doubles,1992,2016,S
+149,Badminton,Badminton Womens Singles,1992,2016,S
+150,Baseball,Baseball Mens Baseball,1992,2008,S
+151,Basketball,Basketball Mens Basketball,1936,2016,S
+152,Basketball,Basketball Womens Basketball,1976,2016,S
+153,Basque Pelota,Basque Pelota Mens Two-Man Teams With Cesta,1900,1900,S
+154,Beach Volleyball,Beach Volleyball Mens Beach Volleyball,1996,2016,S
+155,Beach Volleyball,Beach Volleyball Womens Beach Volleyball,1996,2016,S
+156,Biathlon,Biathlon Mens 10 kilometres Sprint,1980,2014,W
+157,Biathlon,Biathlon Mens 12.5 kilometres Pursuit,2002,2014,W
+158,Biathlon,Biathlon Mens 15 kilometres Mass Start,2006,2014,W
+159,Biathlon,Biathlon Mens 20 kilometres,1960,2014,W
+160,Biathlon,Biathlon Mens 4 x 7.5 kilometres Relay,1968,2014,W
+161,Biathlon,Biathlon Mixed 2 x 6 kilometres and 2 x 7.5 kilometres Relay,2014,2014,W
+162,Biathlon,Biathlon Womens 10 kilometres Pursuit,2002,2014,W
+163,Biathlon,Biathlon Womens 12.5 kilometres Mass Start,2006,2014,W
+164,Biathlon,Biathlon Womens 15 kilometres,1992,2014,W
+165,Biathlon,Biathlon Womens 3 x 7.5 kilometres Relay,1992,1992,W
+166,Biathlon,Biathlon Womens 4 x 6 kilometres Relay,2006,2014,W
+167,Biathlon,Biathlon Womens 4 x 7.5 kilometres Relay,1994,2002,W
+168,Biathlon,Biathlon Womens 7.5 kilometres Sprint,1992,2014,W
+169,Bobsleigh,Bobsleigh Mens Four,1932,2014,W
+170,Bobsleigh,Bobsleigh Mens Four/Five,1924,1928,W
+171,Bobsleigh,Bobsleigh Mens Two,1932,2014,W
+172,Bobsleigh,Bobsleigh Womens Two,2002,2014,W
+173,Boxing,Boxing Mens Bantamweight,1904,2016,S
+174,Boxing,Boxing Mens Featherweight,1904,2008,S
+175,Boxing,Boxing Mens Flyweight,1904,2016,S
+176,Boxing,Boxing Mens Heavyweight,1904,2016,S
+177,Boxing,Boxing Mens Light-Flyweight,1968,2016,S
+178,Boxing,Boxing Mens Light-Heavyweight,1920,2016,S
+179,Boxing,Boxing Mens Light-Middleweight,1952,2000,S
+180,Boxing,Boxing Mens Light-Welterweight,1952,2016,S
+181,Boxing,Boxing Mens Lightweight,1904,2016,S
+182,Boxing,Boxing Mens Middleweight,1904,2016,S
+183,Boxing,Boxing Mens Super-Heavyweight,1984,2016,S
+184,Boxing,Boxing Mens Welterweight,1904,2016,S
+185,Boxing,Boxing Womens Flyweight,2012,2016,S
+186,Boxing,Boxing Womens Lightweight,2012,2016,S
+187,Boxing,Boxing Womens Middleweight,2012,2016,S
+188,Canoeing,Canoeing Mens Canadian Doubles - 1000 metres,1936,2016,S
+189,Canoeing,Canoeing Mens Canadian Doubles - 10000 metres,1936,1956,S
+190,Canoeing,Canoeing Mens Canadian Doubles - 500 metres,1976,2008,S
+191,Canoeing,Canoeing Mens Canadian Doubles - Slalom,1972,2016,S
+192,Canoeing,Canoeing Mens Canadian Singles - 1000 metres,1936,2016,S
+193,Canoeing,Canoeing Mens Canadian Singles - 10000 metres,1948,1956,S
+194,Canoeing,Canoeing Mens Canadian Singles - 200 metres,2012,2016,S
+195,Canoeing,Canoeing Mens Canadian Singles - 500 metres,1976,2008,S
+196,Canoeing,Canoeing Mens Canadian Singles - Slalom,1972,2016,S
+197,Canoeing,Canoeing Mens Folding Kayak Doubles - 10 kilometres,1936,1936,S
+198,Canoeing,Canoeing Mens Folding Kayak Singles - 10 kilometres,1936,1936,S
+199,Canoeing,Canoeing Mens Kayak Doubles - 1000 metres,1936,2016,S
+200,Canoeing,Canoeing Mens Kayak Doubles - 10000 metres,1936,1956,S
+201,Canoeing,Canoeing Mens Kayak Doubles - 200 metres,2012,2016,S
+202,Canoeing,Canoeing Mens Kayak Doubles - 500 metres,1976,2008,S
+203,Canoeing,Canoeing Mens Kayak Fours - 1000 metres,1964,2016,S
+204,Canoeing,Canoeing Mens Kayak Relay 4 x 500 metres,1960,1960,S
+205,Canoeing,Canoeing Mens Kayak Singles - 1000 metres,1936,2016,S
+206,Canoeing,Canoeing Mens Kayak Singles - 10000 metres,1936,1956,S
+207,Canoeing,Canoeing Mens Kayak Singles - 200 metres,2012,2016,S
+208,Canoeing,Canoeing Mens Kayak Singles - 500 metres,1976,2008,S
+209,Canoeing,Canoeing Mens Kayak Singles - Slalom,1972,2016,S
+210,Canoeing,Canoeing Womens Kayak Doubles - 500 metres,1960,2016,S
+211,Canoeing,Canoeing Womens Kayak Fours - 500 metres,1984,2016,S
+212,Canoeing,Canoeing Womens Kayak Singles - 200 metres,2012,2016,S
+213,Canoeing,Canoeing Womens Kayak Singles - 500 metres,1948,2016,S
+214,Canoeing,Canoeing Womens Kayak Singles - Slalom,1972,2016,S
+215,Cricket,Cricket Mens Cricket,1900,1900,S
+216,Croquet,Croquet Mixed Doubles,1900,1900,S
+217,Croquet,Croquet Mixed Singles - One Ball,1900,1900,S
+218,Croquet,Croquet Mixed Singles - Two Balls,1900,1900,S
+219,Cross Country Skiing,Cross Country Skiing Mens 10 kilometres,1992,1998,W
+220,Cross Country Skiing,Cross Country Skiing Mens 10/10 kilometres Pursuit,2002,2002,W
+221,Cross Country Skiing,Cross Country Skiing Mens 10/15 kilometres Pursuit,1992,1998,W
+222,Cross Country Skiing,Cross Country Skiing Mens 15 kilometres,1956,2014,W
+223,Cross Country Skiing,Cross Country Skiing Mens 18 kilometres,1924,1952,W
+224,Cross Country Skiing,Cross Country Skiing Mens 30 kilometres,1956,2002,W
+225,Cross Country Skiing,Cross Country Skiing Mens 30 km Skiathlon,2006,2014,W
+226,Cross Country Skiing,Cross Country Skiing Mens 4 x 10 kilometres Relay,1936,2014,W
+227,Cross Country Skiing,Cross Country Skiing Mens 50 kilometres,1924,2014,W
+228,Cross Country Skiing,Cross Country Skiing Mens Sprint,2002,2014,W
+229,Cross Country Skiing,Cross Country Skiing Mens Team Sprint,2006,2014,W
+230,Cross Country Skiing,Cross Country Skiing Womens 10 kilometres,1952,2014,W
+231,Cross Country Skiing,Cross Country Skiing Womens 15 kilometres,1992,2002,W
+232,Cross Country Skiing,Cross Country Skiing Womens 15 km Skiathlon,2006,2014,W
+233,Cross Country Skiing,Cross Country Skiing Womens 20 kilometres,1984,1988,W
+234,Cross Country Skiing,Cross Country Skiing Womens 3 x 5 kilometres Relay,1956,1972,W
+235,Cross Country Skiing,Cross Country Skiing Womens 30 kilometres,1992,2014,W
+236,Cross Country Skiing,Cross Country Skiing Womens 4 x 5 kilometres Relay,1976,2014,W
+237,Cross Country Skiing,Cross Country Skiing Womens 5 kilometres,1964,1998,W
+238,Cross Country Skiing,Cross Country Skiing Womens 5/10 kilometres Pursuit,1992,1998,W
+239,Cross Country Skiing,Cross Country Skiing Womens 5/5 kilometres Pursuit,2002,2002,W
+240,Cross Country Skiing,Cross Country Skiing Womens Sprint,2002,2014,W
+241,Cross Country Skiing,Cross Country Skiing Womens Team Sprint,2006,2014,W
+242,Curling,Curling Mens Curling,1924,2014,W
+243,Curling,Curling Womens Curling,1998,2014,W
+244,Cycling,Cycling Mens 1 mile,1904,1904,S
+245,Cycling,Cycling Mens 1000 metres Time Trial,1928,2004,S
+246,Cycling,Cycling Mens 1/2 mile,1904,1904,S
+247,Cycling,Cycling Mens 1/3 mile,1904,1904,S
+248,Cycling,Cycling Mens 1/4 mile,1904,1904,S
+249,Cycling,Cycling Mens 10000 metres,1896,1896,S
+250,Cycling,Cycling Mens 100 kilometres,1896,1908,S
+251,Cycling,Cycling Mens 100 kilometres Team Time Trial,1960,1992,S
+252,Cycling,Cycling Mens 12-Hours Race,1896,1896,S
+253,Cycling,Cycling Mens 2 mile,1904,1904,S
+254,Cycling,Cycling Mens 20 kilometres,1908,1908,S
+255,Cycling,Cycling Mens 25 kilometres,1900,1900,S
+256,Cycling,Cycling Mens 25 mile,1904,1904,S
+257,Cycling,Cycling Mens 333 metres Time Trial,1896,1896,S
+258,Cycling,Cycling Mens 5 mile,1904,1904,S
+259,Cycling,Cycling Mens 5000 metres,1908,1908,S
+260,Cycling,Cycling Mens 50 kilometres,1920,1924,S
+261,Cycling,Cycling Mens BMX,2008,2016,S
+262,Cycling,Cycling Mens Individual Pursuit - 4000 metres,1964,2008,S
+263,Cycling,Cycling Mens Individual Time Trial,1996,2016,S
+264,Cycling,Cycling Mens Keirin,2000,2016,S
+265,Cycling,Cycling Mens Madison,2000,2008,S
+266,Cycling,Cycling Mens Mountainbike - Cross-Country,1996,2016,S
+267,Cycling,Cycling Mens Omnium,2012,2016,S
+268,Cycling,Cycling Mens Points Race,1900,2008,S
+269,Cycling,Cycling Mens Road Race - Individual,1896,2016,S
+270,Cycling,Cycling Mens Road Race - Team,1912,1956,S
+271,Cycling,Cycling Mens Sprint,1896,2016,S
+272,Cycling,Cycling Mens Tandem Sprint - 2000 metres,1908,1972,S
+273,Cycling,Cycling Mens Team Pursuit - 1980 yards,1908,1908,S
+274,Cycling,Cycling Mens Team Pursuit - 4000 metres,1920,2016,S
+275,Cycling,Cycling Mens Team Sprint,2000,2016,S
+276,Cycling,Cycling Womens 500 metres Time Trial,2000,2004,S
+277,Cycling,Cycling Womens BMX,2008,2016,S
+278,Cycling,Cycling Womens Individual Pursuit - 3000 metres,1992,2008,S
+279,Cycling,Cycling Womens Individual Time Trial,1996,2016,S
+280,Cycling,Cycling Womens Keirin,2012,2016,S
+281,Cycling,Cycling Womens Mountainbike - Cross-Country,1996,2016,S
+282,Cycling,Cycling Womens Omnium,2012,2016,S
+283,Cycling,Cycling Womens Points Race,1996,2008,S
+284,Cycling,Cycling Womens Road Race - Individual,1984,2016,S
+285,Cycling,Cycling Womens Sprint,1988,2016,S
+286,Cycling,Cycling Womens Team Pursuit,2012,2016,S
+287,Cycling,Cycling Womens Team Sprint,2012,2016,S
+288,Diving,Diving Mens Plain High,1912,1924,S
+289,Diving,Diving Mens Platform,1908,2016,S
+290,Diving,Diving Mens Springboard,1904,2016,S
+291,Diving,Diving Mens Synchronized Platform,2000,2016,S
+292,Diving,Diving Mens Synchronized Springboard,2000,2016,S
+293,Diving,Diving Womens Plain High,1912,1924,S
+294,Diving,Diving Womens Platform,1928,2016,S
+295,Diving,Diving Womens Springboard,1920,2016,S
+296,Diving,Diving Womens Synchronized Platform,2000,2016,S
+297,Diving,Diving Womens Synchronized Springboard,2000,2016,S
+298,Equestrianism,Equestrianism Mens Dressage - Individual,1912,1948,S
+299,Equestrianism,Equestrianism Mens Dressage - Team,1928,1948,S
+300,Equestrianism,Equestrianism Mens Jumping - Individual,1912,1952,S
+301,Equestrianism,Equestrianism Mens Jumping - Team,1912,1952,S
+302,Equestrianism,Equestrianism Mens Three-Day Event - Individual,1912,1960,S
+303,Equestrianism,Equestrianism Mens Three-Day Event - Team,1912,1960,S
+304,Equestrianism,Equestrianism Mens Vaulting - Individual,1920,1920,S
+305,Equestrianism,Equestrianism Mens Vaulting - Team,1920,1920,S
+306,Equestrianism,Equestrianism Mixed Dressage - Individual,1952,2016,S
+307,Equestrianism,Equestrianism Mixed Dressage - Team,1952,2016,S
+308,Equestrianism,Equestrianism Mixed Four-In-Hand Competition,1900,1900,S
+309,Equestrianism,Equestrianism Mixed Hacks And Hunter Combined,1900,1900,S
+310,Equestrianism,Equestrianism Mixed High Jump,1900,1900,S
+311,Equestrianism,Equestrianism Mixed Jumping - Individual,1900,2016,S
+312,Equestrianism,Equestrianism Mixed Jumping - Team,1956,2016,S
+313,Equestrianism,Equestrianism Mixed Long Jump,1900,1900,S
+314,Equestrianism,Equestrianism Mixed Three-Day Event - Individual,1964,2016,S
+315,Equestrianism,Equestrianism Mixed Three-Day Event - Team,1964,2016,S
+316,Fencing,Fencing Mens Foil - Individual,1896,2016,S
+317,Fencing,Fencing Mens Foil - Masters - Individual,1896,1900,S
+318,Fencing,Fencing Mens Foil - Team,1904,2016,S
+319,Fencing,Fencing Mens Sabre - Individual,1896,2016,S
+320,Fencing,Fencing Mens Sabre - Masters - Individual,1900,1900,S
+321,Fencing,Fencing Mens Sabre - Team,1908,2012,S
+322,Fencing,Fencing Mens Single Sticks - Individual,1904,1904,S
+323,Fencing,Fencing Mens epee - Individual,1900,2016,S
+324,Fencing,Fencing Mens epee - Masters and Amateurs - Individual,1900,1900,S
+325,Fencing,Fencing Mens epee - Masters - Individual,1900,1900,S
+326,Fencing,Fencing Mens epee - Team,1908,2016,S
+327,Fencing,Fencing Womens Foil - Individual,1924,2016,S
+328,Fencing,Fencing Womens Foil - Team,1960,2012,S
+329,Fencing,Fencing Womens Sabre - Individual,2004,2016,S
+330,Fencing,Fencing Womens Sabre - Team,2008,2016,S
+331,Fencing,Fencing Womens epee - Individual,1996,2016,S
+332,Fencing,Fencing Womens epee - Team,1996,2016,S
+333,Figure Skating,Figure Skating Mens Singles,1908,2014,S
+334,Figure Skating,Figure Skating Mens Singles,1908,2014,W
+335,Figure Skating,Figure Skating Mens Special Figures,1908,1908,S
+336,Figure Skating,Figure Skating Mixed Ice Dancing,1976,2014,W
+337,Figure Skating,Figure Skating Mixed Pairs,1908,2014,S
+338,Figure Skating,Figure Skating Mixed Pairs,1908,2014,W
+339,Figure Skating,Figure Skating Mixed Team,2014,2014,W
+340,Figure Skating,Figure Skating Womens Singles,1908,2014,S
+341,Figure Skating,Figure Skating Womens Singles,1908,2014,W
+342,Football,Football Mens Football,1900,2016,S
+343,Football,Football Womens Football,1996,2016,S
+344,Freestyle Skiing,Freestyle Skiing Mens Aerials,1994,2014,W
+345,Freestyle Skiing,Freestyle Skiing Mens Halfpipe,2014,2014,W
+346,Freestyle Skiing,Freestyle Skiing Mens Moguls,1992,2014,W
+347,Freestyle Skiing,Freestyle Skiing Mens Ski Cross,2010,2014,W
+348,Freestyle Skiing,Freestyle Skiing Mens Slopestyle,2014,2014,W
+349,Freestyle Skiing,Freestyle Skiing Womens Aerials,1994,2014,W
+350,Freestyle Skiing,Freestyle Skiing Womens Halfpipe,2014,2014,W
+351,Freestyle Skiing,Freestyle Skiing Womens Moguls,1992,2014,W
+352,Freestyle Skiing,Freestyle Skiing Womens Ski Cross,2010,2014,W
+353,Freestyle Skiing,Freestyle Skiing Womens Slopestyle,2014,2014,W
+354,Golf,Golf Mens Individual,1900,2016,S
+355,Golf,Golf Mens Team,1904,1904,S
+356,Golf,Golf Womens Individual,1900,2016,S
+357,Gymnastics,Gymnastics Mens Club Swinging,1904,1932,S
+358,Gymnastics,Gymnastics Mens Floor Exercise,1932,2016,S
+359,Gymnastics,Gymnastics Mens Horizontal Bar,1896,2016,S
+360,Gymnastics,Gymnastics Mens Horizontal Bar - Teams,1896,1896,S
+361,Gymnastics,Gymnastics Mens Horse Vault,1896,2016,S
+362,Gymnastics,Gymnastics Mens Individual All-Around,1900,2016,S
+363,Gymnastics,Gymnastics Mens Individual All-Around - 4 Events,1904,1904,S
+364,Gymnastics,Gymnastics Mens Individual All-Around - Apparatus Work,1904,1904,S
+365,Gymnastics,Gymnastics Mens Individual All-Around - Field Sports,1904,1904,S
+366,Gymnastics,Gymnastics Mens Parallel Bars,1896,2016,S
+367,Gymnastics,Gymnastics Mens Parallel Bars - Teams,1896,1896,S
+368,Gymnastics,Gymnastics Mens Pommelled Horse,1896,2016,S
+369,Gymnastics,Gymnastics Mens Rings,1896,2016,S
+370,Gymnastics,Gymnastics Mens Rope Climbing,1896,1932,S
+371,Gymnastics,Gymnastics Mens Side Horse,1904,1924,S
+372,Gymnastics,Gymnastics Mens Team All-Around,1904,2016,S
+373,Gymnastics,Gymnastics Mens Team All-Around - Free System,1912,1920,S
+374,Gymnastics,Gymnastics Mens Team All-Around - Swedish System,1912,1920,S
+375,Gymnastics,Gymnastics Mens Tumbling,1932,1932,S
+376,Gymnastics,Gymnastics Womens Balance Beam,1952,2016,S
+377,Gymnastics,Gymnastics Womens Floor Exercise,1952,2016,S
+378,Gymnastics,Gymnastics Womens Horse Vault,1952,2016,S
+379,Gymnastics,Gymnastics Womens Individual All-Around,1952,2016,S
+380,Gymnastics,Gymnastics Womens Team All-Around,1928,2016,S
+381,Gymnastics,Gymnastics Womens Team Portable Apparatus,1952,1956,S
+382,Gymnastics,Gymnastics Womens Uneven Bars,1952,2016,S
+383,Handball,Handball Mens Handball,1936,2016,S
+384,Handball,Handball Womens Handball,1976,2016,S
+385,Hockey,Hockey Mens Hockey,1908,2016,S
+386,Hockey,Hockey Womens Hockey,1980,2016,S
+387,Ice Hockey,Ice Hockey Mens Ice Hockey,1920,2014,S
+388,Ice Hockey,Ice Hockey Mens Ice Hockey,1920,2014,W
+389,Ice Hockey,Ice Hockey Womens Ice Hockey,1998,2014,W
+390,Jeu De Paume,Jeu De Paume Mens Singles,1908,1908,S
+391,Judo,Judo Mens Extra-Lightweight,1980,2016,S
+392,Judo,Judo Mens Half-Heavyweight,1972,2016,S
+393,Judo,Judo Mens Half-Lightweight,1980,2016,S
+394,Judo,Judo Mens Half-Middleweight,1972,2016,S
+395,Judo,Judo Mens Heavyweight,1964,2016,S
+396,Judo,Judo Mens Lightweight,1964,2016,S
+397,Judo,Judo Mens Middleweight,1964,2016,S
+398,Judo,Judo Mens Open Class,1964,1984,S
+399,Judo,Judo Womens Extra-Lightweight,1992,2016,S
+400,Judo,Judo Womens Half-Heavyweight,1992,2016,S
+401,Judo,Judo Womens Half-Lightweight,1992,2016,S
+402,Judo,Judo Womens Half-Middleweight,1992,2016,S
+403,Judo,Judo Womens Heavyweight,1992,2016,S
+404,Judo,Judo Womens Lightweight,1992,2016,S
+405,Judo,Judo Womens Middleweight,1992,2016,S
+406,Lacrosse,Lacrosse Mens Lacrosse,1904,1908,S
+407,Luge,Luge Mens Singles,1964,2014,W
+408,Luge,Luge Mixed (Men)'s Doubles,1964,2014,W
+409,Luge,Luge Mixed Team Relay,2014,2014,W
+410,Luge,Luge Womens Singles,1964,2014,W
+411,Military Ski Patrol,Military Ski Patrol Mens Military Ski Patrol,1924,1924,W
+412,Modern Pentathlon,Modern Pentathlon Mens Individual,1912,2016,S
+413,Modern Pentathlon,Modern Pentathlon Mens Team,1952,1992,S
+414,Modern Pentathlon,Modern Pentathlon Womens Individual,2000,2016,S
+415,Motorboating,Motorboating Mixed A-Class (Open),1908,1908,S
+416,Motorboating,Motorboating Mixed B-Class (Under 60 Feet),1908,1908,S
+417,Motorboating,Motorboating Mixed C-Class,1908,1908,S
+418,Nordic Combined,Nordic Combined Mens Individual,1924,2006,W
+419,Nordic Combined,Nordic Combined Mens Large Hill / 10 km - Individual,2010,2014,W
+420,Nordic Combined,Nordic Combined Mens Normal Hill / 10 km - Individual,2010,2014,W
+421,Nordic Combined,Nordic Combined Mens Sprint,2002,2006,W
+422,Nordic Combined,Nordic Combined Mens Team,1988,2014,W
+423,Polo,Polo Mens Polo,1900,1936,S
+424,Racquets,Racquets Mens Doubles,1908,1908,S
+425,Racquets,Racquets Mens Singles,1908,1908,S
+426,Rhythmic Gymnastics,Rhythmic Gymnastics Womens Group,1996,2016,S
+427,Rhythmic Gymnastics,Rhythmic Gymnastics Womens Individual,1984,2016,S
+428,Roque,Roque Mens Singles,1904,1904,S
+429,Rowing,Rowing Mens Coxed Eights,1900,2016,S
+430,Rowing,Rowing Mens Coxed Fours,1900,1992,S
+431,Rowing,Rowing Mens Coxed Fours - Inriggers,1912,1912,S
+432,Rowing,Rowing Mens Coxed Fours - Outriggers,1912,1912,S
+433,Rowing,Rowing Mens Coxed Pairs,1900,1992,S
+434,Rowing,Rowing Mens Coxless Fours,1904,2016,S
+435,Rowing,Rowing Mens Coxless Pairs,1904,2016,S
+436,Rowing,Rowing Mens Double Sculls,1904,2016,S
+437,Rowing,Rowing Mens Lightweight Coxless Fours,1996,2016,S
+438,Rowing,Rowing Mens Lightweight Double Sculls,1996,2016,S
+439,Rowing,Rowing Mens Quadruple Sculls,1976,2016,S
+440,Rowing,Rowing Mens Single Sculls,1900,2016,S
+441,Rowing,Rowing Womens Coxed Eights,1976,2016,S
+442,Rowing,Rowing Womens Coxed Fours,1976,1988,S
+443,Rowing,Rowing Womens Coxed Quadruple Sculls,1976,1984,S
+444,Rowing,Rowing Womens Coxless Fours,1992,1992,S
+445,Rowing,Rowing Womens Coxless Pairs,1976,2016,S
+446,Rowing,Rowing Womens Double Sculls,1976,2016,S
+447,Rowing,Rowing Womens Lightweight Double Sculls,1996,2016,S
+448,Rowing,Rowing Womens Quadruple Sculls,1988,2016,S
+449,Rowing,Rowing Womens Single Sculls,1976,2016,S
+450,Rugby,Rugby Mens Rugby,1900,1924,S
+451,Rugby Sevens,Rugby Sevens Mens Rugby Sevens,2016,2016,S
+452,Rugby Sevens,Rugby Sevens Womens Rugby Sevens,2016,2016,S
+453,Sailing,Sailing Mens One Person Dinghy,1992,2016,S
+454,Sailing,Sailing Mens One Person Heavyweight Dinghy,2012,2016,S
+455,Sailing,Sailing Mens Skiff,2012,2016,S
+456,Sailing,Sailing Mens Two Person Dinghy,1988,2016,S
+457,Sailing,Sailing Mens Two Person Keelboat,2004,2012,S
+458,Sailing,Sailing Mens Windsurfer,1984,2016,S
+459,Sailing,Sailing Mixed 0-0.5 Ton,1900,1900,S
+460,Sailing,Sailing Mixed 0.5-1 Ton,1900,1900,S
+461,Sailing,Sailing Mixed 1-2 Ton,1900,1900,S
+462,Sailing,Sailing Mixed 10 metres,1912,1920,S
+463,Sailing,Sailing Mixed 10-20 Ton,1900,1900,S
+464,Sailing,Sailing Mixed 12 foot,1920,1920,S
+465,Sailing,Sailing Mixed 12 metres,1908,1920,S
+466,Sailing,Sailing Mixed 2-3 Ton,1900,1900,S
+467,Sailing,Sailing Mixed 20+ Ton,1900,1900,S
+468,Sailing,Sailing Mixed 3-10 Ton,1900,1900,S
+469,Sailing,Sailing Mixed 30 metres,1920,1920,S
+470,Sailing,Sailing Mixed 40 metres,1920,1920,S
+471,Sailing,Sailing Mixed 5.5 metres,1952,1968,S
+472,Sailing,Sailing Mixed 6 metres,1908,1952,S
+473,Sailing,Sailing Mixed 6.5 metres,1920,1920,S
+474,Sailing,Sailing Mixed 7 metres,1908,1920,S
+475,Sailing,Sailing Mixed 8 metres,1908,1936,S
+476,Sailing,Sailing Mixed Multihull,1976,2016,S
+477,Sailing,Sailing Mixed One Person Dinghy,1924,2008,S
+478,Sailing,Sailing Mixed Open,1900,1900,S
+479,Sailing,Sailing Mixed Skiff,2000,2008,S
+480,Sailing,Sailing Mixed Three Person Keelboat,1948,2000,S
+481,Sailing,Sailing Mixed Two Person Dinghy,1976,1984,S
+482,Sailing,Sailing Mixed Two Person Heavyweight Dinghy,1956,1992,S
+483,Sailing,Sailing Mixed Two Person Keelboat,1932,2000,S
+484,Sailing,Sailing Mixed Windsurfer,1988,1988,S
+485,Sailing,Sailing Womens One Person Dinghy,1992,2016,S
+486,Sailing,Sailing Womens Skiff,2016,2016,S
+487,Sailing,Sailing Womens Three Person Keelboat,2004,2012,S
+488,Sailing,Sailing Womens Two Person Dinghy,1988,2016,S
+489,Sailing,Sailing Womens Windsurfer,1992,2016,S
+490,Shooting,Shooting Mens Air Pistol - 10 metres,1988,2016,S
+491,Shooting,Shooting Mens Air Rifle - 10 metres,1984,2016,S
+492,Shooting,Shooting Mens Double Trap,1996,2016,S
+493,Shooting,Shooting Mens Dueling Pistol - 30 metres,1912,1912,S
+494,Shooting,Shooting Mens Dueling Pistol - 30 metres - Team,1912,1912,S
+495,Shooting,Shooting Mens Free Pistol - 30 metres,1896,1896,S
+496,Shooting,Shooting Mens Free Pistol - 50 metres,1900,2016,S
+497,Shooting,Shooting Mens Free Pistol - 50 metres - Team,1900,1920,S
+498,Shooting,Shooting Mens Free Pistol - 50 yards,1908,1908,S
+499,Shooting,Shooting Mens Free Pistol - 50 yards - Team,1908,1908,S
+500,Shooting,Shooting Mens Free Rifle - 1000 Yards,1908,1908,S
+501,Shooting,Shooting Mens Free Rifle - 400 - 600 and 800 metres - Team,1924,1924,S
+502,Shooting,Shooting Mens Free Rifle - Kneeling - 300 metres,1900,1900,S
+503,Shooting,Shooting Mens Free Rifle - Prone - 300 metres,1900,1900,S
+504,Shooting,Shooting Mens Free Rifle - Prone - 600 metres,1924,1924,S
+505,Shooting,Shooting Mens Free Rifle - Standing - 300 metres,1900,1900,S
+506,Shooting,Shooting Mens Free Rifle - Three Positions - 300 metres,1896,1964,S
+507,Shooting,Shooting Mens Free Rifle - Three Positions - 300 metres - Team,1900,1920,S
+508,Shooting,Shooting Mens Military Pistol - 25 metres,1896,1896,S
+509,Shooting,Shooting Mens Military Pistol - 30 metres,1920,1920,S
+510,Shooting,Shooting Mens Military Pistol - Team,1920,1920,S
+511,Shooting,Shooting Mens Military Rifle - 200 metres,1896,1896,S
+512,Shooting,Shooting Mens Military Rifle - 200 - 400 - 500 and 600 metres - Team,1912,1912,S
+513,Shooting,Shooting Mens Military Rifle - 200/500/600/800/900/1000 Yards - Team,1908,1908,S
+514,Shooting,Shooting Mens Military Rifle - 300 metres and 600 metres - Prone - Team,1920,1920,S
+515,Shooting,Shooting Mens Military Rifle - Any Position - 600 metres,1912,1912,S
+516,Shooting,Shooting Mens Military Rifle - Prone - 300 metres,1920,1920,S
+517,Shooting,Shooting Mens Military Rifle - Prone - 300 metres - Team,1920,1920,S
+518,Shooting,Shooting Mens Military Rifle - Prone - 600 metres,1920,1920,S
+519,Shooting,Shooting Mens Military Rifle - Prone - 600 metres - Team,1920,1920,S
+520,Shooting,Shooting Mens Military Rifle - Standing - 300 metres,1920,1920,S
+521,Shooting,Shooting Mens Military Rifle - Standing - 300 metres - Team,1920,1920,S
+522,Shooting,Shooting Mens Military Rifle - Three Positions - 300 metres,1912,1912,S
+523,Shooting,Shooting Mens Muzzle-Loading Pistol - 25 metres,1896,1896,S
+524,Shooting,Shooting Mens Rapid-Fire Pistol - 25 metres,1924,2016,S
+525,Shooting,Shooting Mens Running Target - 10 metres,1992,2004,S
+526,Shooting,Shooting Mens Running Target - 50 metres,1984,1988,S
+527,Shooting,Shooting Mens Running Target - Double Shot,1908,1924,S
+528,Shooting,Shooting Mens Running Target - Double Shot - Team,1920,1924,S
+529,Shooting,Shooting Mens Running Target - Single And Double Shot,1952,1956,S
+530,Shooting,Shooting Mens Running Target - Single Shot,1908,1924,S
+531,Shooting,Shooting Mens Running Target - Single Shot - Team,1908,1924,S
+532,Shooting,Shooting Mens Skeet,1996,2016,S
+533,Shooting,Shooting Mens Small Bore-Rifle - Standing - 50 metres - Team,1920,1920,S
+534,Shooting,Shooting Mens Small-Bore Rifle - 50 and 100 yards - Team,1908,1908,S
+535,Shooting,Shooting Mens Small-Bore Rifle - Any Position - 50 metres,1912,1912,S
+536,Shooting,Shooting Mens Small-Bore Rifle - Disappearing Target - 25 metres,1912,1912,S
+537,Shooting,Shooting Mens Small-Bore Rifle - Disappearing Target - 25 metres - Team,1912,1912,S
+538,Shooting,Shooting Mens Small-Bore Rifle - Disappearing Target - 25 yards,1908,1908,S
+539,Shooting,Shooting Mens Small-Bore Rifle - Moving Target - 25 yards,1908,1908,S
+540,Shooting,Shooting Mens Small-Bore Rifle - Prone - 50 and 100 yards,1908,1908,S
+541,Shooting,Shooting Mens Small-Bore Rifle - Prone - 50 metres,1924,2016,S
+542,Shooting,Shooting Mens Small-Bore Rifle - Prone - 50 metres - Team,1912,1912,S
+543,Shooting,Shooting Mens Small-Bore Rifle - Standing - 50 metres,1920,1920,S
+544,Shooting,Shooting Mens Small-Bore Rifle - Three Positions - 50 metres,1952,2016,S
+545,Shooting,Shooting Mens Trap,1900,2016,S
+546,Shooting,Shooting Mens Trap - Team,1908,1924,S
+547,Shooting,Shooting Mixed Free Pistol - 50 metres,1968,1980,S
+548,Shooting,Shooting Mixed Free Rifle - Three Positions - 300 metres,1968,1972,S
+549,Shooting,Shooting Mixed Rapid-Fire Pistol - 25 metres,1968,1980,S
+550,Shooting,Shooting Mixed Running Target - 50 metres,1972,1980,S
+551,Shooting,Shooting Mixed Skeet,1968,1992,S
+552,Shooting,Shooting Mixed Small-Bore Rifle - Prone - 50 metres,1968,1980,S
+553,Shooting,Shooting Mixed Small-Bore Rifle - Three Positions - 50 metres,1968,1980,S
+554,Shooting,Shooting Mixed Trap,1968,1992,S
+555,Shooting,Shooting Womens Air Pistol - 10 metres,1988,2016,S
+556,Shooting,Shooting Womens Air Rifle - 10 metres,1984,2016,S
+557,Shooting,Shooting Womens Double Trap,1996,2004,S
+558,Shooting,Shooting Womens Skeet,2000,2016,S
+559,Shooting,Shooting Womens Small-Bore Rifle - Three Positions - 50 metres,1984,2016,S
+560,Shooting,Shooting Womens Sporting Pistol - 25 metres,1984,2016,S
+561,Shooting,Shooting Womens Trap,2000,2016,S
+562,Short Track Speed Skating,Short Track Speed Skating Mens 1000 metres,1992,2014,W
+563,Short Track Speed Skating,Short Track Speed Skating Mens 1500 metres,2002,2014,W
+564,Short Track Speed Skating,Short Track Speed Skating Mens 5000 metres Relay,1992,2014,W
+565,Short Track Speed Skating,Short Track Speed Skating Mens 500 metres,1994,2014,W
+566,Short Track Speed Skating,Short Track Speed Skating Womens 1000 metres,1994,2014,W
+567,Short Track Speed Skating,Short Track Speed Skating Womens 1500 metres,2002,2014,W
+568,Short Track Speed Skating,Short Track Speed Skating Womens 3000 metres Relay,1992,2014,W
+569,Short Track Speed Skating,Short Track Speed Skating Womens 500 metres,1992,2014,W
+570,Skeleton,Skeleton Mens Skeleton,1928,2014,W
+571,Skeleton,Skeleton Womens Skeleton,2002,2014,W
+572,Ski Jumping,Ski Jumping Mens Large Hill - Individual,1964,2014,W
+573,Ski Jumping,Ski Jumping Mens Large Hill - Team,1988,2014,W
+574,Ski Jumping,Ski Jumping Mens Normal Hill - Individual,1924,2014,W
+575,Ski Jumping,Ski Jumping Womens Normal Hill - Individual,2014,2014,W
+576,Snowboarding,Snowboarding Mens Boardercross,2006,2014,W
+577,Snowboarding,Snowboarding Mens Giant Slalom,1998,1998,S
+578,Snowboarding,Snowboarding Mens Halfpipe,1998,2014,W
+579,Snowboarding,Snowboarding Mens Parallel Giant Slalom,2002,2014,W
+580,Snowboarding,Snowboarding Mens Parallel Slalom,2014,2014,W
+581,Snowboarding,Snowboarding Mens Slopestyle,2014,2014,W
+582,Snowboarding,Snowboarding Womens Boardercross,2006,2014,W
+583,Snowboarding,Snowboarding Womens Giant Slalom,1998,1998,S
+584,Snowboarding,Snowboarding Womens Halfpipe,1998,2014,W
+585,Snowboarding,Snowboarding Womens Parallel Giant Slalom,2002,2014,W
+586,Snowboarding,Snowboarding Womens Parallel Slalom,2014,2014,W
+587,Snowboarding,Snowboarding Womens Slopestyle,2014,2014,W
+588,Softball,Softball Womens Softball,1996,2008,S
+589,Speed Skating,Speed Skating Mens 1000 metres,1976,2014,W
+590,Speed Skating,Speed Skating Mens 1500 metres,1924,2014,W
+591,Speed Skating,Speed Skating Mens 10000 metres,1924,2014,W
+592,Speed Skating,Speed Skating Mens 5000 metres,1924,2014,W
+593,Speed Skating,Speed Skating Mens 500 metres,1924,2014,W
+594,Speed Skating,Speed Skating Mens Allround,1924,1924,S
+595,Speed Skating,Speed Skating Mens Team Pursuit (8 laps),2006,2014,W
+596,Speed Skating,Speed Skating Womens 1000 metres,1960,2014,W
+597,Speed Skating,Speed Skating Womens 1500 metres,1960,2014,W
+598,Speed Skating,Speed Skating Womens 3000 metres,1960,2014,W
+599,Speed Skating,Speed Skating Womens 5000 metres,1988,2014,W
+600,Speed Skating,Speed Skating Womens 500 metres,1960,2014,W
+601,Speed Skating,Speed Skating Womens Team Pursuit (6 laps),2006,2014,W
+602,Swimming,Swimming Mens 1000 metres Freestyle,1900,1900,S
+603,Swimming,Swimming Mens 1200 metres Freestyle,1896,1896,S
+604,Swimming,Swimming Mens 1500 metres Freestyle,1908,2016,S
+605,Swimming,Swimming Mens 10 kilometres Open Water,2008,2016,S
+606,Swimming,Swimming Mens 100 Yard Backstroke,1904,1904,S
+607,Swimming,Swimming Mens 100 metres Backstroke,1908,2016,S
+608,Swimming,Swimming Mens 100 metres Breaststroke,1968,2016,S
+609,Swimming,Swimming Mens 100 metres Butterfly,1968,2016,S
+610,Swimming,Swimming Mens 100 metres Freestyle,1896,2016,S
+611,Swimming,Swimming Mens 100 metres Freestyle For Sailors,1896,1896,S
+612,Swimming,Swimming Mens 100 yard Freestyle,1904,1904,S
+613,Swimming,Swimming Mens 200 metres Backstroke,1900,2016,S
+614,Swimming,Swimming Mens 200 metres Breaststroke,1908,2016,S
+615,Swimming,Swimming Mens 200 metres Butterfly,1956,2016,S
+616,Swimming,Swimming Mens 200 metres Freestyle,1900,2016,S
+617,Swimming,Swimming Mens 200 metres Individual Medley,1968,2016,S
+618,Swimming,Swimming Mens 200 metres Obstacle Course,1900,1900,S
+619,Swimming,Swimming Mens 200 metres Team Swimming,1900,1900,S
+620,Swimming,Swimming Mens 220 yard Freestyle,1904,1904,S
+621,Swimming,Swimming Mens 4 x 100 metres Freestyle Relay,1964,2016,S
+622,Swimming,Swimming Mens 4 x 100 metres Medley Relay,1960,2016,S
+623,Swimming,Swimming Mens 4 x 200 metres Freestyle Relay,1908,2016,S
+624,Swimming,Swimming Mens 4 x 50 Yard Freestyle Relay,1904,1904,S
+625,Swimming,Swimming Mens 4000 metres Freestyle,1900,1900,S
+626,Swimming,Swimming Mens 400 metres Breaststroke,1912,1920,S
+627,Swimming,Swimming Mens 400 metres Freestyle,1908,2016,S
+628,Swimming,Swimming Mens 400 metres Individual Medley,1964,2016,S
+629,Swimming,Swimming Mens 440 Yard Breaststroke,1904,1904,S
+630,Swimming,Swimming Mens 440 yard Freestyle,1904,1904,S
+631,Swimming,Swimming Mens 50 metres Freestyle,1988,2016,S
+632,Swimming,Swimming Mens 50 yard Freestyle,1904,1904,S
+633,Swimming,Swimming Mens 500 metres Freestyle,1896,1896,S
+634,Swimming,Swimming Mens 880 yard Freestyle,1904,1904,S
+635,Swimming,Swimming Mens One Mile Freestyle,1904,1904,S
+636,Swimming,Swimming Mens Plunge For Distance,1904,1904,S
+637,Swimming,Swimming Mens Underwater Swimming,1900,1900,S
+638,Swimming,Swimming Womens 10 kilometres Open Water,2008,2016,S
+639,Swimming,Swimming Womens 100 metres Backstroke,1924,2016,S
+640,Swimming,Swimming Womens 100 metres Breaststroke,1968,2016,S
+641,Swimming,Swimming Womens 100 metres Butterfly,1956,2016,S
+642,Swimming,Swimming Womens 100 metres Freestyle,1912,2016,S
+643,Swimming,Swimming Womens 200 metres Backstroke,1968,2016,S
+644,Swimming,Swimming Womens 200 metres Breaststroke,1924,2016,S
+645,Swimming,Swimming Womens 200 metres Butterfly,1968,2016,S
+646,Swimming,Swimming Womens 200 metres Freestyle,1968,2016,S
+647,Swimming,Swimming Womens 200 metres Individual Medley,1968,2016,S
+648,Swimming,Swimming Womens 300 metres Freestyle,1920,1920,S
+649,Swimming,Swimming Womens 4 x 100 metres Freestyle Relay,1912,2016,S
+650,Swimming,Swimming Womens 4 x 100 metres Medley Relay,1960,2016,S
+651,Swimming,Swimming Womens 4 x 200 metres Freestyle Relay,1996,2016,S
+652,Swimming,Swimming Womens 400 metres Freestyle,1924,2016,S
+653,Swimming,Swimming Womens 400 metres Individual Medley,1964,2016,S
+654,Swimming,Swimming Womens 50 metres Freestyle,1988,2016,S
+655,Swimming,Swimming Womens 800 metres Freestyle,1968,2016,S
+656,Synchronized Swimming,Synchronized Swimming Womens Duet,1984,2016,S
+657,Synchronized Swimming,Synchronized Swimming Womens Solo,1984,1992,S
+658,Synchronized Swimming,Synchronized Swimming Womens Team,1996,2016,S
+659,Table Tennis,Table Tennis Mens Doubles,1988,2004,S
+660,Table Tennis,Table Tennis Mens Singles,1988,2016,S
+661,Table Tennis,Table Tennis Mens Team,2008,2016,S
+662,Table Tennis,Table Tennis Womens Doubles,1988,2004,S
+663,Table Tennis,Table Tennis Womens Singles,1988,2016,S
+664,Table Tennis,Table Tennis Womens Team,2008,2016,S
+665,Taekwondo,Taekwondo Mens Featherweight,2000,2016,S
+666,Taekwondo,Taekwondo Mens Flyweight,2000,2016,S
+667,Taekwondo,Taekwondo Mens Heavyweight,2000,2016,S
+668,Taekwondo,Taekwondo Mens Welterweight,2000,2016,S
+669,Taekwondo,Taekwondo Womens Featherweight,2000,2016,S
+670,Taekwondo,Taekwondo Womens Flyweight,2000,2016,S
+671,Taekwondo,Taekwondo Womens Heavyweight,2000,2016,S
+672,Taekwondo,Taekwondo Womens Welterweight,2000,2016,S
+673,Tennis,Tennis Mens Doubles,1896,2016,S
+674,Tennis,Tennis Mens Doubles - Covered Courts,1908,1912,S
+675,Tennis,Tennis Mens Singles,1896,2016,S
+676,Tennis,Tennis Mens Singles - Covered Courts,1908,1912,S
+677,Tennis,Tennis Mixed Doubles,1900,2016,S
+678,Tennis,Tennis Mixed Doubles - Covered Courts,1912,1912,S
+679,Tennis,Tennis Womens Doubles,1920,2016,S
+680,Tennis,Tennis Womens Singles,1900,2016,S
+681,Tennis,Tennis Womens Singles - Covered Courts,1908,1912,S
+682,Trampolining,Trampolining Mens Individual,2000,2016,S
+683,Trampolining,Trampolining Womens Individual,2000,2016,S
+684,Triathlon,Triathlon Mens Olympic Distance,2000,2016,S
+685,Triathlon,Triathlon Womens Olympic Distance,2000,2016,S
+686,Tug-Of-War,Tug-Of-War Mens Tug-Of-War,1900,1920,S
+687,Volleyball,Volleyball Mens Volleyball,1964,2016,S
+688,Volleyball,Volleyball Womens Volleyball,1964,2016,S
+689,Water Polo,Water Polo Mens Water Polo,1900,2016,S
+690,Water Polo,Water Polo Womens Water Polo,2000,2016,S
+691,Weightlifting,Weightlifting Mens All-Around Dumbbell Contest,1904,1904,S
+692,Weightlifting,Weightlifting Mens Bantamweight,1948,2016,S
+693,Weightlifting,Weightlifting Mens Featherweight,1920,2016,S
+694,Weightlifting,Weightlifting Mens Flyweight,1972,1996,S
+695,Weightlifting,Weightlifting Mens Heavyweight,1920,2016,S
+696,Weightlifting,Weightlifting Mens Heavyweight I,1980,1996,S
+697,Weightlifting,Weightlifting Mens Heavyweight II,1980,1996,S
+698,Weightlifting,Weightlifting Mens Light-Heavyweight,1920,2016,S
+699,Weightlifting,Weightlifting Mens Lightweight,1920,2016,S
+700,Weightlifting,Weightlifting Mens Middle-Heavyweight,1952,2016,S
+701,Weightlifting,Weightlifting Mens Middleweight,1920,2016,S
+702,Weightlifting,Weightlifting Mens Super-Heavyweight,1972,2016,S
+703,Weightlifting,Weightlifting Mens Unlimited - One Hand,1896,1896,S
+704,Weightlifting,Weightlifting Mens Unlimited - Two Hands,1896,1904,S
+705,Weightlifting,Weightlifting Womens Featherweight,2000,2016,S
+706,Weightlifting,Weightlifting Womens Flyweight,2000,2016,S
+707,Weightlifting,Weightlifting Womens Heavyweight,2000,2016,S
+708,Weightlifting,Weightlifting Womens Light-Heavyweight,2000,2016,S
+709,Weightlifting,Weightlifting Womens Lightweight,2000,2016,S
+710,Weightlifting,Weightlifting Womens Middleweight,2000,2016,S
+711,Weightlifting,Weightlifting Womens Super-Heavyweight,2000,2016,S
+712,Wrestling,Wrestling Mens Bantamweight - Freestyle,1904,2000,S
+713,Wrestling,Wrestling Mens Bantamweight - Greco-Roman,1924,2000,S
+714,Wrestling,Wrestling Mens Featherweight - Freestyle,1904,2016,S
+715,Wrestling,Wrestling Mens Featherweight - Greco-Roman,1912,2016,S
+716,Wrestling,Wrestling Mens Flyweight - Freestyle,1904,1996,S
+717,Wrestling,Wrestling Mens Flyweight - Greco-Roman,1948,1996,S
+718,Wrestling,Wrestling Mens Heavyweight - Freestyle,1904,2016,S
+719,Wrestling,Wrestling Mens Heavyweight - Greco-Roman,1908,2016,S
+720,Wrestling,Wrestling Mens Light-Flyweight - Freestyle,1904,1996,S
+721,Wrestling,Wrestling Mens Light-Flyweight - Greco-Roman,1972,1996,S
+722,Wrestling,Wrestling Mens Light-Heavyweight - Freestyle,1920,2016,S
+723,Wrestling,Wrestling Mens Light-Heavyweight - Greco-Roman,1908,2016,S
+724,Wrestling,Wrestling Mens Lightweight - Freestyle,1904,2012,S
+725,Wrestling,Wrestling Mens Lightweight - Greco-Roman,1908,2012,S
+726,Wrestling,Wrestling Mens Middleweight A - Greco-Roman,1912,1912,S
+727,Wrestling,Wrestling Mens Middleweight B - Greco-Roman,1912,1912,S
+728,Wrestling,Wrestling Mens Middleweight - Freestyle,1908,2016,S
+729,Wrestling,Wrestling Mens Middleweight - Greco-Roman,1908,2016,S
+730,Wrestling,Wrestling Mens Super-Heavyweight - Freestyle,1972,2016,S
+731,Wrestling,Wrestling Mens Super-Heavyweight - Greco-Roman,1972,2016,S
+732,Wrestling,Wrestling Mens Unlimited Class - Greco-Roman,1896,1896,S
+733,Wrestling,Wrestling Mens Welterweight - Freestyle,1904,2016,S
+734,Wrestling,Wrestling Mens Welterweight - Greco-Roman,1932,2016,S
+735,Wrestling,Wrestling Womens Featherweight - Freestyle,2016,2016,S
+736,Wrestling,Wrestling Womens Flyweight - Freestyle,2004,2016,S
+737,Wrestling,Wrestling Womens Heavyweight - Freestyle,2004,2016,S
+738,Wrestling,Wrestling Womens Light-Heavyweight - Freestyle,2016,2016,S
+739,Wrestling,Wrestling Womens Lightweight - Freestyle,2004,2016,S
+740,Wrestling,Wrestling Womens Middleweight - Freestyle,2004,2016,S
+

@@ -1,0 +1,52 @@
+Year,season,City,NOC,numSports
+1896,S,Athens,GRE,43
+1900,S,Paris,FRA,89
+1904,S,St. Louis,USA,95
+1908,S,London,GBR,109
+1912,S,Stockholm,SWE,107
+1920,S,Antwerp,BEL,156
+1924,W,Chamonix,FRA,147
+1924,S,Paris,FRA,147
+1928,W,St. Moritz,SUI,133
+1928,S,Amsterdam,NED,133
+1932,W,Lake Placid,USA,140
+1932,S,Los Angeles,USA,140
+1936,W,Garmisch-Partenkirchen,GER,160
+1936,S,Berlin,GER,160
+1948,W,St. Moritz,SUI,170
+1948,S,London,GBR,170
+1952,W,Oslo,NOR,171
+1952,S,Helsinki,FIN,171
+1956,W,Cortina d'Ampezzo,ITA,175
+1956,S,Melbourne,AUS,175
+1956,S,Stockholm,SWE,175
+1960,W,Squaw Valley,USA,177
+1960,S,Rome,ITA,177
+1964,W,Innsbruck,AUT,197
+1964,S,Tokyo,JPN,197
+1968,W,Grenoble,FRA,207
+1968,S,Mexico City,MEX,207
+1972,W,Sapporo,JPN,228
+1972,S,Munich,GER,228
+1976,W,Innsbruck,AUT,235
+1976,S,Montreal,CAN,235
+1980,W,Lake Placid,USA,241
+1980,S,Moscow,RUS,241
+1984,W,Sarajevo,RUS,260
+1984,S,Los Angeles,USA,260
+1988,W,Calgary,CAN,283
+1988,S,Seoul,KOR,283
+1992,W,Albertville,FRA,314
+1992,S,Barcelona,ESP,314
+1994,W,Lillehammer,NOR,61
+1996,S,Atlanta,USA,271
+1998,W,Nagano,JPN,68
+2000,S,Sydney,AUS,300
+2002,W,Salt Lake City,USA,78
+2004,S,Athens,GRE,301
+2006,W,Turin,ITA,84
+2008,S,Beijing,CHN,302
+2010,W,Vancouver,CAN,86
+2012,S,London,GBR,302
+2014,W,Sochi,RUS,98
+2016,S,Rio de Janeiro,BRA,306
