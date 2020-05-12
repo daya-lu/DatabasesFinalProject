@@ -60,21 +60,8 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2" id="season">
-                  <option>Select season</option>
-                  <option value="S">Summer</option>
-                  <option value="W">Winter</option>
-                </select>
-                <select class="browser-default custom-select col-md-3 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
-                  <option>Select sport</option>
-                </select>
-                <select class="browser-default custom-select col-md-4 event">
-                  <option>Select event</option>
-                </select>
-                <select class="browser-default custom-select col-md-2" id="gender">
-                  <option>Select gender</option>
-                  <option value="M">Male</option>
-                  <option value="F">Female</option>
+                <select class="browser-default custom-select col-md-3 sport" required>
+                  <option value="">Select sport</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -86,7 +73,7 @@
           <div class="card-header" id="headingThree">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                aria-expanded="false" aria-controls="collapseThree" onclick="addCountries()">
+                aria-expanded="false" aria-controls="collapseThree">
                 Which sports have the greatest average longevity among Olympians?
               </button>
             </h5>
@@ -94,18 +81,15 @@
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2" id="season">
-                  <option>Select season</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select season</option>
                   <option value="S">Summer</option>
                   <option value="W">Winter</option>
                 </select>
-                <select class="browser-default custom-select col-md-2" id="gender">
-                  <option>Select gender</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
-                </select>
-                <select class="browser-default custom-select col-md-2 country">
-                  <option>Select country</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -125,11 +109,11 @@
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2 sport">
-                  <option>Select sport</option>
+                <select class="browser-default custom-select col-md-2 sport" required>
+                  <option value="">Select sport</option>
                 </select>
-                <select class="browser-default custom-select col-md-2 country">
-                  <option>Select country</option>
+                <select class="browser-default custom-select col-md-2 country" required>
+                  <option value="">Select country</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -152,8 +136,8 @@
                 <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
                   <option value="">Select sport</option>
                 </select>
-                <select class="browser-default custom-select col-md-4 event">
-                  <option>Select event</option>
+                <select class="browser-default custom-select col-md-4 event" required>
+                  <option value="">Select event</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -173,21 +157,18 @@
           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2">
-                  <option>Select gender</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
                 </select>
-                <select class="browser-default custom-select col-md-2" id="season">
-                  <option>Select season</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select season</option>
                   <option value="S">Summer</option>
                   <option value="W">Winter</option>
                 </select>
-                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
+                <select class="browser-default custom-select col-md-2 sport">
                   <option>Select sport</option>
-                </select>
-                <select class="browser-default custom-select col-md-4 event">
-                  <option>Select event</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -207,11 +188,11 @@
           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2 country">
-                  <option>Select country</option>
+                <select class="browser-default custom-select col-md-2 country" required>
+                  <option value="">Select country</option>
                 </select>
-                <select class="browser-default custom-select col-md-2">
-                  <option>Select gender</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
                 </select>
@@ -233,20 +214,14 @@
           <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2" required>
-                  <option value="">Select medal</option>
-                  <option value="Gold">Gold</option>
-                  <option value="Silver">Silver</option>
-                  <option value="Bronze">Bronze</option>
-                </select>
                 <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
                   <option value="">Select sport</option>
                 </select>
-                <select class="browser-default custom-select col-md-4 event">
-                  <option>Select event</option>
+                <select class="browser-default custom-select col-md-4 event" required>
+                  <option value="">Select event</option>
                 </select>
-                <select class="browser-default custom-select col-md-2">
-                  <option>Select gender</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
                 </select>
@@ -281,10 +256,10 @@
                     Please enter an appropriate weight in kilograms.
                   </div>
                 </div>
-                <select class="browser-default custom-select col-md-2" id="season">
-                  <option>Select season</option>
-                  <option value="S">Summer</option>
-                  <option value="W">Winter</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
+                  <option value="M">Male</option>
+                  <option value="F">Female</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
@@ -402,16 +377,13 @@
           <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2" id="gender">
-                  <option>Select gender</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
                 </select>
-                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)">
-                  <option>Select sport</option>
-                </select>
-                <select class="browser-default custom-select col-md-4 event">
-                  <option>Select event</option>
+                <select class="browser-default custom-select col-md-2 sport" required>
+                  <option value="">Select sport</option>
                 </select>
                 <select class="browser-default custom-select col-md-3 country" required>
                   <option value="">Select country</option>
@@ -434,19 +406,8 @@
           <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2" id="season">
-                  <option>Select season</option>
-                  <option value="S">Summer</option>
-                  <option value="W">Winter</option>
-                </select>
-                <select class="browser-default custom-select col-md-2 sport" onchange="addEvents(this.options[this.selectedIndex].text)" required>
-                  <option value="">Select sport</option>
-                </select>
-                <select class="browser-default custom-select col-md-4 event">
-                  <option>Select event</option>
-                </select>
-                <select class="browser-default custom-select col-md-2" id="gender">
-                  <option>Select gender</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
                 </select>
@@ -468,18 +429,10 @@
           <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion">
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
-                <select class="browser-default custom-select col-md-2" id="season">
-                  <option>Select season</option>
-                  <option value="S">Summer</option>
-                  <option value="W">Winter</option>
-                </select>
-                <select class="browser-default custom-select col-md-2" id="gender">
-                  <option>Select gender</option>
+                <select class="browser-default custom-select col-md-2" required>
+                  <option value="">Select gender</option>
                   <option value="M">Male</option>
                   <option value="F">Female</option>
-                </select>
-                <select class="browser-default custom-select col-md-3 country" required>
-                  <option value="">Select country</option>
                 </select>
                 <br>
                 <button class="btn btn-primary mt-3" type="submit">Submit</button>
