@@ -67,7 +67,38 @@ function addSports() {
     }
 }
 
-function addEvents(result) {
+function addSportsSeason(season) {
+    var sports = {
+        "S": ["Archery", "Athletics", "Badminton", "Baseball", "Beach Volleyball", "Boxing", "Croquet",
+            "Diving", "Equestrianism", "Fencing", "Figure Skating", "Golf", "Gymnastics", "Handball", "Hockey", 
+            "Ice Hockey", "Judo", "Rhythmic Gymnastics", "Rowing", "Rugby", "Shooting", "Swimming",
+            "Synchronized Swimming", "Table Tennis", "Taekwondo", "Tennis", "Triathlon", "Volleyball", 
+            "Water Polo", "Weightlifting", "Wrestling"],
+        "W": ["Bobsleigh", "Cross Country Skiing", "Curling", "Figure Skating", "Ice Hockey",
+            "Ski Jumping", "Snowboarding", "Speed Skating"]
+    }
+    var sportMenu = document.getElementById("ssport");
+    sportMenu.innerHTML = "";
+    var vals = [];
+    switch(season) {
+        case "S":
+            vals = sports.S.slice();
+            break;
+        case "W":
+            vals = sports.W.slice();
+            break;
+        default:
+            vals = ["Select sport"];
+    }
+    for (var val of vals) {
+        var option = document.createElement("option");
+        option.value = val;
+        option.text = val;
+        sportMenu.appendChild(option);
+    }
+}
+
+function addEvents(sport) {
     var events = {
         "Archery": ["Archery Mens Target Archery - 50 metres - Individual", "Archery Mens Target Archery - 50 metres - Team",
             "Archery Mens Team", "Archery Mens Team Round", "Archery Womens Double Columbia Round", "Archery Womens Double National Round",
@@ -120,7 +151,7 @@ function addEvents(result) {
     }
     var eventMenu = document.getElementsByClassName("event");
     var vals = [];
-    switch(result) {
+    switch(sport) {
         case "Archery":
             vals = events.Archery.slice();
             break;
