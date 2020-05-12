@@ -1,5 +1,5 @@
 function addGames() {
-    var gameMenu = document.getElementsByClassName("game");
+    var gameMenu = document.getElementById("game");
     var games = ["1896 - Greece - S", "1900 - France - S", "1904 - USA - S", "1908 - UK - S", "1912 - Sweden - S", "1920 - Belgium - S", "1924 - France - W",
         "1924 - France - S","1928 - Switzerland - W", "1928 - Netherlands - S", "1932 - USA - W", "1932 - USA - S", "1936 - Germany - W", "1936 - Germany - S", "1948 - Switzerland - W", "1948 - UK - S", "1952 - Norway - W",
         "1952 - Finland - S", "1956 - Italy - W", "1956 - Australia - S", "1960 - USA - W", "1960 - Italy - S", "1964 - Austria - W",
@@ -7,18 +7,12 @@ function addGames() {
         "1980 - USA - W", "1980 - Russia - S", "1984 - Russia - W", "1984 - USA - S", "1988 - Canada - W", "1988 - South Korea - S", "1992 - France - W",
         "1992 - Spain - S", "1994 - Norway - W", "1996 - USA - S", "1998 - Japan - W", "2000 - Australia - S", "2002 - USA - W", "2004 - Greece - S",
         "2006 - Italy - W", "2008 - China - S", "2010 - Canada - W", "2012 - UK - S", "2014 - Russia - S", "2016 - Brazil - W"];
-    for (var gm in gameMenu) {
-        for (var g in games) {
-            var year = games[g].substring(0, 4);
-            var option = document.createElement("option");
-            option.value = year;
-            option.text = games[g];
-            try {
-                gameMenu[gm].appendChild(option);
-            } catch (error) {
-                console.log("type error");
-            }
-        }
+    for (var g in games) {
+        var year = games[g].substring(0, 4);
+        var option = document.createElement("option");
+        option.value = year;
+        option.text = games[g];
+        gameMenu.appendChild(option);
     }
 }
 
