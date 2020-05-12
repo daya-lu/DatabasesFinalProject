@@ -40,7 +40,7 @@
             <div class="card-body">
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
               <h4>Select Olympic game</h4>
-              <select class="browser-default custom-select col-md-3 game" id="game" onchange="checkGames()" required></select>
+              <select class="browser-default custom-select col-md-3 game" id="game" required></select>
               <br>
               <button class="btn btn-primary mt-3" type="submit">Submit</button>
               </form>
@@ -244,14 +244,14 @@
               <form class="lead mb-3" action="show_raw_scores.php" method="post">
                 <div class="data col-2">
                   <label for="height">Height (cm)</label>
-                  <input type="text" class="form-control" id="height" required>
+                  <input type="number" step="1" min="1" class="form-control" id="height" required>
                   <div class="invalid-feedback">
                     Please enter an appropriate height in centimeters.
                   </div>
                 </div>
                 <div class="data col-2">
                   <label for="weight">Weight (kg)</label>
-                  <input type="text" class="form-control" id="weight" required>
+                  <input type="number" step="1" min="1" class="form-control" id="weight" required>
                   <div class="invalid-feedback">
                     Please enter an appropriate weight in kilograms.
                   </div>
@@ -326,42 +326,26 @@
           </div>
           <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
             <div class="card-body">
-              <h4>Select time range</h4>
-                <!-- TODO: add input validation for years selected to make sure year1 < year 2 -->
-                <select class="browser-default custom-select col-md-2" id="year1">
-                  <option>Select year 1</option>
-                  <option value="1890">1890</option>
-                  <option value="1900">1900</option>
-                  <option value="1910">1910</option>
-                  <option value="1920">1920</option>
-                  <option value="1930">1930</option>
-                  <option value="1940">1940</option>
-                  <option value="1950">1950</option>
-                  <option value="1960">1960</option>
-                  <option value="1970">1970</option>
-                  <option value="1980">1980</option>
-                  <option value="1990">1990</option>
-                  <option value="2000">2000</option>
-                  <option value="2010">2010</option>
-                </select>
-                <select class="browser-default custom-select col-md-2" id="year2">
-                  <option>Select year 2</option>
-                  <option value="1890">1890</option>
-                  <option value="1900">1900</option>
-                  <option value="1910">1910</option>
-                  <option value="1920">1920</option>
-                  <option value="1930">1930</option>
-                  <option value="1940">1940</option>
-                  <option value="1950">1950</option>
-                  <option value="1960">1960</option>
-                  <option value="1970">1970</option>
-                  <option value="1980">1980</option>
-                  <option value="1990">1990</option>
-                  <option value="2000">2000</option>
-                  <option value="2010">2010</option>
-                </select>
-              <br>
-              <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              <form class="lead mb-3" action="show_raw_scores.php" method="post">
+                <div class="data col-2">
+                  <h4>Enter year range (1896-2016)</h4>
+                  <label for="year1">Enter year 1</label>
+                  <input type="number" step="1" min="1896" max="2016" class="form-control" id="year1" required>
+                  <div class="invalid-feedback">
+                    Please enter an appropriate year.
+                  </div>
+                </div>
+                <div class="data col-2">
+                  <label for="year2">Enter year 2</label>
+                  <input type="number" step="1" min="1896" max="2016" class="form-control" id="year2" required onchange="validateYear()">
+                  <div class="invalid-feedback">
+                    Please enter an appropriate year.
+                  </div>
+                </div>
+                <br>
+                <button class="btn btn-primary mt-3" type="submit">Submit</button>
+              </form>
+              
             </div>
           </div>
         </div>

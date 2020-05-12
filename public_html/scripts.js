@@ -1,12 +1,12 @@
 function addGames() {
     var gameMenu = document.getElementsByClassName("game");
-    var games = ["1896 - Greece", "1900 - France", "1904 - USA", "1908 - UK", "1912 - Sweden", "1920 - Belgium", "1924 - France",
-        "1928 - Switzerland", "1928 - Netherlands", "1932 - USA", "1936 - Germany", "1948 - Switzerland", "1948 - UK", "1952 - Norway",
-        "1952 - Finland", "1956 - Italy", "1956 - Australia", "1960 - USA", "1960 - Italy", "1964 - Austria",
-        "1964 - Japan", "1968 - France", "1968 - Mexico", "1972 - Japan", "1972 - Germany", "1976 - Austria", "1976 - Canada",
-        "1980 - USA", "1980 - Russia", "1984 - Russia", "1984 - USA", "1988 - Canada", "1988 - South Korea", "1992 - France",
-        "1992 - Spain", "1994 - Norway", "1996 - USA", "1998 - Japan", "2000 - Australia", "2002 - USA", "2004 - Greece",
-        "2006 - Italy", "2008 - China", "2010 - Canada", "2012 - UK", "2014 - Russia", "2016 - Brazil"];
+    var games = ["1896 - Greece - S", "1900 - France - S", "1904 - USA - S", "1908 - UK - S", "1912 - Sweden - S", "1920 - Belgium - S", "1924 - France - W",
+        "1924 - France - S","1928 - Switzerland - W", "1928 - Netherlands - S", "1932 - USA - W", "1932 - USA - S", "1936 - Germany - W", "1936 - Germany - S", "1948 - Switzerland - W", "1948 - UK - S", "1952 - Norway - W",
+        "1952 - Finland - S", "1956 - Italy - W", "1956 - Australia - S", "1960 - USA - W", "1960 - Italy - S", "1964 - Austria - W",
+        "1964 - Japan - S", "1968 - France - W", "1968 - Mexico - S", "1972 - Japan - W", "1972 - Germany - S", "1976 - Austria - W", "1976 - Canada - S",
+        "1980 - USA - W", "1980 - Russia - S", "1984 - Russia - W", "1984 - USA - S", "1988 - Canada - W", "1988 - South Korea - S", "1992 - France - W",
+        "1992 - Spain - S", "1994 - Norway - W", "1996 - USA - S", "1998 - Japan - W", "2000 - Australia - S", "2002 - USA - W", "2004 - Greece - S",
+        "2006 - Italy - W", "2008 - China - S", "2010 - Canada - W", "2012 - UK - S", "2014 - Russia - S", "2016 - Brazil - W"];
     for (var gm in gameMenu) {
         for (var g in games) {
             var year = games[g].substring(0, 4);
@@ -19,32 +19,6 @@ function addGames() {
                 console.log("type error");
             }
         }
-    }
-}
-
-// function to check if countries are any of the ones that hosted
-// both summer and winter game in the same year. if so, 
-// create a new dropdown menu to select summer or winter
-function checkGames() {
-    var g = document.getElementById("game");
-    var game = g.options[g.selectedIndex].text;
-    var menuBody = document.getElementById("collapseOne");
-    var year = game.toString().substring(0, 4);
-
-    if (year == 1924 || year == 1932 || year == 1936) {
-        var seasonMenu = document.createElement("select");
-        seasonMenu.class = "browser-default custom-select col-md-3";
-        menuBody.appendChild(seasonMenu);
-
-        var summerOpt = document.createElement("option");
-        summerOpt.value = "S";
-        summerOpt.text = "Summer";
-        var winterOpt = document.createElement("option");
-        winterOpt.value = "W";
-        winterOpt.text = "Winter";
-
-        seasonMenu.appendChild(summerOpt);
-        seasonMenu.appendChild(winterOpt);
     }
 }
 
@@ -279,5 +253,13 @@ function addEvents(result) {
             option.text = val;
             em.appendChild(option);
         }
+    }
+}
+
+function validateYear() {
+    var y1 = document.getElementById("year1").value;
+    var y2 = document.getElementById("year2").value;
+    if (y1 > y2) {
+        alert("year 1 must be less than year 2.");
     }
 }
